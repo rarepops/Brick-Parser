@@ -59,3 +59,69 @@ Accept: {{contentType}}
 ### Final query - expect missing
 GET {{base}}/api/v1/models/{{modelId}}
 Accept: {{contentType}}
+
+
+### ====== UNITY TEST MODEL ======
+### Create a simple house structure for Unity visualization
+# @name unityModel
+POST {{base}}/api/v1/models
+Content-Type: {{contentType}}
+
+{
+  "name": "Simple House",
+  "partCount": 9,
+  "parts": [
+    {
+      "uuid": "floor-1",
+      "designId": 3001,
+      "transformMatrix": [4.0, 0.0, 0.0, 0.0, 0.0, 0.2, 0.0, 0.1, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "wall-front-left",
+      "designId": 3001,
+      "transformMatrix": [0.5, 0.0, 0.0, -1.5, 0.0, 2.0, 0.0, 1.0, 0.0, 0.0, 0.5, 1.5, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "wall-front-right",
+      "designId": 3001,
+      "transformMatrix": [0.5, 0.0, 0.0, 1.5, 0.0, 2.0, 0.0, 1.0, 0.0, 0.0, 0.5, 1.5, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "wall-back",
+      "designId": 3001,
+      "transformMatrix": [4.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 1.0, 0.0, 0.0, 0.5, -1.5, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "wall-left",
+      "designId": 3001,
+      "transformMatrix": [0.5, 0.0, 0.0, -1.5, 0.0, 2.0, 0.0, 1.0, 0.0, 0.0, 3.5, 0.0, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "wall-right",
+      "designId": 3001,
+      "transformMatrix": [0.5, 0.0, 0.0, 1.5, 0.0, 2.0, 0.0, 1.0, 0.0, 0.0, 3.5, 0.0, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "roof-left",
+      "designId": 3001,
+      "transformMatrix": [2.5, 0.0, 0.0, -0.8, 0.0, 0.3, -0.8, 2.5, 0.0, 0.3, 2.5, 0.0, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "roof-right",
+      "designId": 3001,
+      "transformMatrix": [2.5, 0.0, 0.0, 0.8, 0.0, 0.3, 0.8, 2.5, 0.0, 0.3, 2.5, 0.0, 0.0, 0.0, 0.0, 1.0]
+    },
+    {
+      "uuid": "chimney",
+      "designId": 3001,
+      "transformMatrix": [0.4, 0.0, 0.0, 1.0, 0.0, 1.2, 0.0, 2.6, 0.0, 0.0, 0.4, -0.8, 0.0, 0.0, 0.0, 1.0]
+    }
+  ]
+}
+
+### Get Unity model ID
+@unityModelId = {{unityModel.response.body.$.modelId}}
+
+### Retrieve Unity test model (use this ID in Unity)
+GET {{base}}/api/v1/models/{{unityModelId}}
+Accept: {{contentType}}

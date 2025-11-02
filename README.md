@@ -66,3 +66,22 @@ dotnet test
 - ✓ Comprehensive tests
 - ✓ OpenTelemetry observability
 - ✓ Health checks with exponential backoff
+
+## Unity Viewer
+
+A Unity-based 3D viewer for visualizing LXFML models loaded from the API.
+
+### Setup
+
+1. Open the `LxfmlViewer` folder in Unity (Unity 6+)
+2. Ensure the API is running: `dotnet run --project LxfmlSharp.AppHost`
+3. Open the `MainScene` and press Play
+4. Enter a model ID and click "Load Model"
+
+### Features
+
+- ✓ Real-time model loading from API
+- ✓ Automatic transformation matrix parsing
+- ✓ Exquisite multi-axis rotation animation
+- ✓ Fancy part coloring for visualization
+- ✓ Model replacement on reload
