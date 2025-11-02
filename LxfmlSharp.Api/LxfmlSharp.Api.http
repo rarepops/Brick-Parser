@@ -1,0 +1,36 @@
+@http = http://localhost:5130
+@https = https://localhost:7181
+@base = {{https}}
+@contentType = application/json
+
+### Upload a parsed model
+# @name createModel
+POST {{base}}/api/models
+Content-Type: {{contentType}}
+
+{
+  "name": "Everyone is Awesome",
+  "partCount": 10,
+  "parts": [
+    {
+      "uuid": "p-1",
+      "designId": 3001,
+      "transformMatrix": [1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1]
+    }
+  ]
+}
+
+### Extract modelId from previous response
+@modelId = {{createModel.response.body.$.modelId}}
+
+### Get the model (roundtrip)
+GET {{base}}/api/models/{{modelId}}
+Accept: {{contentType}}
+
+### Negative test: non-existent id should 404
+GET {{base}}/api/models/does-not-exist
+Accept: {{contentType}}
+
+### Switch base to HTTPS (optional)
+GET {{https}}/api/models/{{modelId}}
+Accept: {{contentType}}

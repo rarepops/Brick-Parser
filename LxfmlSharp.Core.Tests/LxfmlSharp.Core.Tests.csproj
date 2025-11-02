@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.4" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
-    <PackageReference Include="TUnit" Version="0.88.0" />
+    <PackageReference Include="TUnit" Version="0.90.0" />
     <PackageReference Include="Verify" Version="31.4.0" />
     <PackageReference Include="Verify.TUnit" Version="31.4.0" />
     <PackageReference Include="xunit" Version="2.9.3" />

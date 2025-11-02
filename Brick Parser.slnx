@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="AppHost/AppHost.csproj" Id="64cea6e4-9008-43aa-9a48-53a3056df5e9" />
+  <Project Path="LxfmlSharp.Api/LxfmlSharp.Api.csproj" />
   <Project Path="LxfmlSharp.Cli/LxfmlSharp.Cli.csproj" Id="24e6310b-86ec-4c90-9902-78cc8f54c15e" />
   <Project Path="LxfmlSharp.Core.Tests/LxfmlSharp.Core.Tests.csproj" Id="ba980861-6f3b-41d4-9bc0-525f9c07532e" />
   <Project Path="LxfmlSharp.Core/LxfmlSharp.Core.csproj" />
