@@ -1,0 +1,5 @@
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designId="abc"/>
+  </Bricks>
+</LXFML>

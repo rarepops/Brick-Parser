@@ -1,0 +1,13 @@
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designId="1">
+      <UnknownFoo bar="baz"/>
+      <Part designId="2">
+        <Bone transform="1,0,0,0, 0,1,0,0, 0,0,1,0"/>
+      </Part>
+    </Brick>
+  </Bricks>
+  <RigidSystems>
+    <RigidSystem id="1" boneRefs="1,2,3"/>
+  </RigidSystems>
+</LXFML>

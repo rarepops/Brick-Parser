@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designId="1">
+      <Part designId="2">
+        <!-- NaN included; should throw InvalidDataException -->
+        <Bone transform="1,0,0,0, 0,1,0,0, 0,0,NaN,0" />
+      </Part>
+    </Brick>
+  </Bricks>
+</LXFML>

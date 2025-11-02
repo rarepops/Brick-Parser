@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designId="123" uuid="brick-1">
+      <Part designId="456" uuid="part-1" type="rigid" materials="21,5:2">
+        <Bone uuid="bone-1" transform="1,0,0,10, 0,1,0,20, 0,0,1,30"/>
+      </Part>
+    </Brick>
+  </Bricks>
+</LXFML>

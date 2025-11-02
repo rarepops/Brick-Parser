@@ -1,0 +1,9 @@
+﻿[
+  {
+    ColorId: 194,
+    Variant: 3
+  },
+  {
+    ColorId: 21
+  }
+]

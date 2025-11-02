@@ -1,0 +1,1 @@
+﻿Brick.designId must be an integer.

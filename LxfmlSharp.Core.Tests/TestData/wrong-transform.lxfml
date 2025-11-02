@@ -1,0 +1,10 @@
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designId="1">
+      <Part designId="2">
+        <!-- 11 values instead of 12 -->
+        <Bone transform="1,0,0,0, 0,1,0,0, 0,0,1"/>
+      </Part>
+    </Brick>
+  </Bricks>
+</LXFML>

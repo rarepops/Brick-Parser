@@ -1,0 +1,1936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LXFML versionMajor="9" versionMinor="0" versionPatch="0">
+  <Bricks>
+    <Brick designID="31510" uuid="b576eabe-a01c-4864-800d-4c5d51568be6">
+      <Part uuid="99edf3f9-d5d3-4e0f-955e-5daeab7bb7c6" designID="31510" partType="rigid" materials="107:0">
+        <Bone uuid="7c87c486-661a-426e-b11c-e985c215c2d5" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.4,0.02119982,-11.2" />
+      </Part>
+    </Brick>
+    <Brick designID="91405" uuid="853f6d50-881b-4a00-92be-d8b0232b09e5">
+      <Part uuid="bbb9e78f-2216-4844-a849-f72cecfa9969" designID="91405" partType="rigid" materials="1:0">
+        <Bone uuid="7cdf8024-4763-445c-84b9-33c593d79ebe" transformation="1,0,0,0,1,0,0,0,1,-3.6,0.00000007882971,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="de21ea71-8e31-4545-b998-7661fc7a2214">
+      <Part uuid="7769fc51-cba8-44f1-a1bd-144d317f0b6b" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="2f8a2e5b-2cde-4d4a-be9b-6eb2b23c0979" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="2efe248e-f7fa-4397-aa04-06029d39edc5">
+      <Part uuid="f7828942-7bb9-4d77-afe4-bcae73aa0fa1" designID="3002" partType="rigid" materials="24:0">
+        <Bone uuid="e4733ac5-02f9-42ce-bab8-2b92adaf873a" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="7a4be8ce-98de-4d8f-8e17-2091c0c25add">
+      <Part uuid="e0e31971-61fc-4837-80a3-ead49cadd3bc" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="621358e8-4065-4f1d-8729-e990bbe8dfb0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,0.32,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3027" uuid="af24e3aa-4956-4bca-b388-08284d057544">
+      <Part uuid="3fd88b88-d6b9-4820-a74a-283b829cdb27" designID="3027" partType="rigid" materials="1:0">
+        <Bone uuid="56194a43-8fae-404a-93a4-fa5c0d5e257d" transformation="1,0,0,0,1,0,0,0,1,-3.6,0.00000001490116,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3308a635-ce12-464c-b303-4bebb443d4f6">
+      <Part uuid="54fb06af-e4d2-467f-b68c-def396c5eba7" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="e9beaafb-2c13-45c1-96f2-6ccb3a00d9bd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="85d521a8-0fc4-4765-acae-4230ffe08387">
+      <Part uuid="70422955-512b-4d86-a966-6eb6a0c6e369" designID="3002" partType="rigid" materials="21:0">
+        <Bone uuid="14227f51-1483-4a9c-8437-f12076428e97" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f879ce8d-5e39-40f3-ad2f-adef80cfb80f">
+      <Part uuid="827fe92e-3984-47e5-868f-c54595c09f85" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="62c28557-0a85-4c4b-bdd0-7138d3a616e6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="4f56db0c-2d0d-4311-968f-e6ed6c0dda90">
+      <Part uuid="9269d66e-3d94-443e-90a9-75a268f7380d" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="f256b786-2f2d-4f34-a67d-bc68a8352d03" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="184fd8d5-6189-41b6-ab27-fe9bb04cf0f0">
+      <Part uuid="f8358614-35d0-45d1-87fd-a07021132dd7" designID="3002" partType="rigid" materials="21:0">
+        <Bone uuid="9eafaeec-05a5-49eb-b46e-f64d42f04b57" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="bc7fc3e5-cd29-4b4b-9849-b989e8c5269e">
+      <Part uuid="b6531432-97a6-483e-bfae-15068b403ea8" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="8920d778-c4ea-486d-bfb9-df7b5ad42fe4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="1267b0ad-015f-4c62-8f10-30dd7cc67bde">
+      <Part uuid="a9f5fabf-33bb-429e-86eb-e56f2232b836" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="2e5d4003-9ed0-43bc-a6cd-fc66ad9b63c2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,2.24,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="33a71b16-cc0b-4916-8bb2-b5088b38dad7">
+      <Part uuid="0a1d3774-7c72-43f4-811f-06e36345a03a" designID="3002" partType="rigid" materials="106:0">
+        <Bone uuid="ffcdcc33-46fd-4e46-b428-510a6f1385b5" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="4381b56a-79b7-40ab-8a22-e043c4aa13d8">
+      <Part uuid="71e92505-dc25-437c-95ca-fe4dff1ae367" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="f827cee1-14e0-437a-9656-ba39d1d96585" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="db8b44e5-1a37-4ca6-8064-0680205fdac5">
+      <Part uuid="d3e6d9e9-e80f-46d6-b719-9534bbeb134b" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="f9d44c1f-efb0-4114-8007-ee4cbc6b3dd6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="b833372f-3ce7-4a37-9b27-528dcbad251c">
+      <Part uuid="6e9d05ba-c88d-4aa0-9124-1663cb98f006" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="6247527b-e37d-47f8-a04d-6df8a4d74598" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="3800033d-3f7b-485a-a893-83a037fcd5dd">
+      <Part uuid="1b07ba5e-7501-43fb-ac90-70570868b6d9" designID="3002" partType="rigid" materials="106:0">
+        <Bone uuid="ebbe6d71-7ba8-442b-95e1-94c463ea9361" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="2aac4800-83da-41cf-80a8-a172b5e73a4a">
+      <Part uuid="951b571a-ade6-49b5-8855-f4ccda5f353d" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="823ea1d5-cfef-4cdb-ab3d-74e85db4f14f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e58a16c0-cb1d-4ffb-ac9f-c31073e3218e">
+      <Part uuid="68191c71-2e63-4730-a248-596a4fd84bf9" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="25c6add6-875f-4d8c-86a1-88166ba2e83f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="05b623ea-40e4-4e50-8f9f-89f1ea508e2e">
+      <Part uuid="f381b7c9-054a-404c-9f38-38b6b7e4ad2f" designID="3002" partType="rigid" materials="106:0">
+        <Bone uuid="2affda35-5875-427c-95d6-123f76593d39" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="1394503f-d137-4220-ae89-d9be775801e3">
+      <Part uuid="c4cf8154-f065-4c5c-bb18-a282a12773f7" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="beb2473a-2d13-44c6-b5d8-0389a66d6f9e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,4.16,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="8725c161-022f-48da-bd2f-d9fb1af45a49">
+      <Part uuid="a71dda49-33ed-40ed-902e-5a3d81722273" designID="3002" partType="rigid" materials="192:0">
+        <Bone uuid="53418c49-e835-4b60-b0c1-e388969c5106" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="53d1fb43-1be8-4c40-acbf-8785d6665abe">
+      <Part uuid="cb71da65-6b9e-47e5-8d03-42d664b8119e" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="ef976b59-8ee1-4705-81dd-36066423742d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="4473b072-2418-479f-b211-14db6ebc7165">
+      <Part uuid="dc4b26ae-9a20-4033-aba0-5c1febe3a81a" designID="3002" partType="rigid" materials="192:0">
+        <Bone uuid="705d3145-d095-49b6-9ed7-8cd4c61e78c5" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="60208744-dceb-40c4-b033-a56731cd25f9">
+      <Part uuid="e0c69da5-238e-4850-abaf-bb61a7c63569" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="4824bf5b-cf6d-493f-87bf-4da613a1f46e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3158a62f-3a4f-49c9-9430-f4db417763d0">
+      <Part uuid="1f1c8f9b-0f9b-4b67-9623-3357d636faae" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="b2413bf4-1813-4bfe-b586-5e8400e2a65c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f95d6923-33db-40c2-a764-798dac49728a">
+      <Part uuid="c0185483-6f64-45a1-b3b8-15f1d981fabe" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="9d9402d2-b079-4d0c-bf0d-bc22e2b7bbf0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ca97f5ae-0f83-4bbb-8816-8d5d8d54ba37">
+      <Part uuid="63362d03-fadf-4ee5-8040-2c790f9eb038" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="880cc62c-7304-486d-a127-ba950642488c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="3c5d529c-9400-477a-861a-67b29c090d0b">
+      <Part uuid="5fb240be-773f-4a13-b672-ada1959d9839" designID="3002" partType="rigid" materials="192:0">
+        <Bone uuid="8a17abb1-34b0-45ee-bc2c-240e4532e9fe" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="0ab824ec-142a-4d3e-af0c-02ce38d51b55">
+      <Part uuid="a23a3d1c-b9eb-4288-8a0c-7f01cad8b70c" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="f2aad047-fe86-494c-8ec8-fab54c3f2d3b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,6.08,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="d0d7ecf4-272d-417b-b9a9-bb7f2af2d83a">
+      <Part uuid="7906d233-658d-463f-88fa-f8a45bdd1790" designID="3002" partType="rigid" materials="24:0">
+        <Bone uuid="67697082-fb3c-4b90-80fc-8e46a878dc2a" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f6c057b7-aefb-45bf-800c-d2466f3f4ef8">
+      <Part uuid="b35d210d-571f-45cc-be42-b12e6fc649f2" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="962f4618-d8c1-40c7-a229-997039dd5907" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="683ee7c5-39fe-4475-ac92-3d7c6324173a">
+      <Part uuid="6afa8bca-aa1e-4e69-8799-85ef0db0fdbb" designID="3002" partType="rigid" materials="24:0">
+        <Bone uuid="5cf44a21-e8a0-4a1e-9a7c-a47fb84e762f" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ee36e5d8-e775-4cbe-b79b-8b1bc002d59d">
+      <Part uuid="f881266b-5804-4ec4-bdcc-12d89b528715" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="303af563-9336-49ac-aeb4-0fa4180046ba" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="0c4a2ed4-6b13-4ca1-9030-05a0feef21cf">
+      <Part uuid="94f576c3-52e9-4358-898f-5cd728760b01" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="607b7a00-83b3-4019-be06-f33d4186dc62" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="b649b175-4ed7-4101-be32-d3cf5533ab15">
+      <Part uuid="2f8e53f6-b7c5-4b6c-a618-c507dfa3f779" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="3cbb941f-f45b-48fb-b6e1-d719ec2b188d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f503b625-3d6e-45ad-8e66-79c3f91c42f2">
+      <Part uuid="e65d63a3-ba01-451e-ac5b-5687d96b3332" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="915bcb04-dbdf-45e5-b2f2-3d2c14226941" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="c0ef9d46-7690-4931-a51f-0b2a8da92629">
+      <Part uuid="c56760ba-039f-4aa7-aff8-2ca66758603a" designID="3002" partType="rigid" materials="24:0">
+        <Bone uuid="ebc016a3-94e4-41b5-bd95-609819a021f6" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="702c3d50-76e3-4a9a-8f0d-244b85ee5620">
+      <Part uuid="203f253e-f349-4886-8114-183a1c0c3c58" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="255f4d34-2d69-4131-9dfe-1856834ce7f9" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="07238445-2a42-4089-a289-20f78a305675">
+      <Part uuid="eee4479f-eefa-4a0c-9c27-f681917f191f" designID="3023" partType="rigid" materials="24:0">
+        <Bone uuid="195e74fd-3ea0-45e7-a2be-65514169a680" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e11f7580-4595-43b5-b9ac-1f81fc1f5903">
+      <Part uuid="2e2b869f-4628-4941-b5ae-d1af5c4f1416" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="a7d4b299-aec1-4c7e-b605-dc7d780ee51d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="4162" uuid="44237cc1-6757-4b80-a746-a5ebbe49cbbe">
+      <Part uuid="a902fdb5-2050-4c26-949c-963b549ce3ed" designID="4162" partType="rigid" materials="5:0">
+        <Bone uuid="4abcba40-fc3d-469b-b617-fa52eb1a034b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,8,4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="80370b9c-6b11-4ca7-b19c-62cc5e237966">
+      <Part uuid="87748898-c37f-4b8c-b254-f6436952cd34" designID="3002" partType="rigid" materials="23:0">
+        <Bone uuid="47b208f6-60f3-405c-ac3f-33904389429e" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="30d03b93-552c-4652-a03c-943618dc566a">
+      <Part uuid="7a501223-d8aa-46ff-ab9d-c32a257d604b" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="f7e9f87b-afbf-4cb2-b0e2-2fa564b64921" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="c5be5f7e-cc2f-40fe-995c-7ff760bf4116">
+      <Part uuid="b58f608e-a871-45c3-8e61-c5fe18882012" designID="3023" partType="rigid" materials="23:0">
+        <Bone uuid="98f76fe6-3278-4c2e-a611-7393d46f879b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="69e2c472-7146-491d-83d6-45400a55c4d7">
+      <Part uuid="fab44df4-e616-4d6b-8f67-8d981450d0c3" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="b8a9b0dd-4c7b-4b6b-86fa-a032aa94a24c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,6.08,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="7f6e23ff-0a73-4904-af48-2d311532443d">
+      <Part uuid="1d383f4a-495f-4e03-b284-ac730a269356" designID="3002" partType="rigid" materials="23:0">
+        <Bone uuid="112d4f49-ad9c-4e44-b7cd-b419fc71373d" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3163e73b-047f-4dab-adca-4c3192fb379f">
+      <Part uuid="9ef43f4b-f603-4ffe-a244-af43ec3492f3" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="48d7fbb3-33b5-4ad7-a2c0-4040df44202b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="2d8f16e5-5f18-4972-925c-3d0ef90c2bd8">
+      <Part uuid="a508f501-7f98-47f5-af5f-ad3e61a1f855" designID="3002" partType="rigid" materials="23:0">
+        <Bone uuid="25e1ceba-7c1c-40db-ac0f-920cde3cd25a" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="50d15f45-e836-45ea-8b58-8f93c43088d1">
+      <Part uuid="f1c4fb0b-9b34-4215-9b99-96259f654921" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="3d1be62f-9f18-4daf-a9aa-27c0a87e6545" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="0e747d0b-aec1-454b-8e1b-38eeecb7d4dc">
+      <Part uuid="1143fd95-970a-4840-9c23-bd88d322adf0" designID="3002" partType="rigid" materials="23:0">
+        <Bone uuid="03fdb38b-f742-44f4-8917-b5143bae32f2" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="57bdf860-997a-47f8-8b40-5ded901e90c2">
+      <Part uuid="f73a832a-64d4-4391-8ec3-bdeaf1537d1e" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="b6037ec8-b133-4aba-814c-717217760e6e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="8ad0430a-1c16-4e68-9b46-3a3c07ad5541">
+      <Part uuid="08a96a2b-8967-46fa-a0d0-e140c283cd49" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="08131353-c908-4ae5-b939-4a6a4a68842d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,0.3200001,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="c7ab6cef-2d5f-4606-8038-442954a27633">
+      <Part uuid="c0ec221d-d1e7-4a31-bafd-4c2d3ffd76fb" designID="3002" partType="rigid" materials="268:0">
+        <Bone uuid="c3c12050-8f3e-4422-bec7-81b0ffbb5bf6" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="9e3383a9-4c2e-493a-8275-3fe3001e5adb">
+      <Part uuid="698fa7b5-18d0-4900-9543-c11a59f26c41" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="352b480c-1794-4722-9219-a28dc3930abc" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="d1c23d31-20f2-4456-9db0-cbbad4d04d37">
+      <Part uuid="b370d56d-517c-4cd4-bcad-496411092a30" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="f048d86e-02b7-4a71-b5fe-ed58ed04d130" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="99e04241-4714-400c-b32d-07095e921e91">
+      <Part uuid="1bf5d1f0-4eee-4cb5-af68-1ae63a095399" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="2faf1c4c-3db7-4a46-b4d9-73d550e93e05" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="8b189699-987f-480f-bf02-11b564de5854">
+      <Part uuid="376c170c-ec17-433f-b3d5-3152d11a71e8" designID="3002" partType="rigid" materials="268:0">
+        <Bone uuid="d6bf5eb1-81fc-4522-89b5-43c00004c4f9" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="24e12b3f-44ee-462c-999e-678678eb3973">
+      <Part uuid="ed5fa856-5356-48d1-848d-413a95dece8f" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="efc9cda1-0edc-4fc7-8c36-5551d1387ae4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="c6a784d5-7a19-4ff8-a447-8956cb743e40">
+      <Part uuid="bddace72-2911-478c-add4-69a2981be975" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="9c9a2b2b-1e43-4441-9b4a-17218f1e70ab" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,2.24,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="de2f8eaa-495c-474d-9f29-7c79ce6efca9">
+      <Part uuid="0b4a9a93-ddcd-4a84-b041-24c9b26d6e30" designID="3002" partType="rigid" materials="1:0">
+        <Bone uuid="04502f59-d6d2-4c40-bde1-6a2a83581eaf" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="76426066-6592-451a-b31b-2ce9cf1627ae">
+      <Part uuid="b794d3fb-c008-4f24-b10d-0119ecc107e5" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="50e40963-8c69-4520-bcf5-81d20fdac6fe" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="33278922-8df2-4cb7-9f7c-bc107a5b4c0d">
+      <Part uuid="3e78c014-d911-4d79-83d1-c5179c874605" designID="3002" partType="rigid" materials="1:0">
+        <Bone uuid="1b2e1e2e-38b3-4eda-bfc4-a056ab5c15b8" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ac773d19-32f8-4de9-bf88-11b114b744c9">
+      <Part uuid="3fd98c67-7f65-449d-a57a-6f3037ae6618" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="25ead977-3878-4944-b7e0-762eaf0ef7b8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ca58696c-2aa9-4f7d-9485-e88f377db215">
+      <Part uuid="210d12d6-9a2b-4005-b2a8-4ac7c4135ded" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="a5fd0026-3357-4a7e-805c-5b6df649cef2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3cb8f2ea-3408-4b09-a783-c8e2c1a0bf3e">
+      <Part uuid="5b03ef30-5f5e-4400-993b-4b8a981fc320" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="a32f567f-74dd-4132-a6a4-7e03820590cd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="84eca242-f0e4-40e1-b369-caf79dbd5836">
+      <Part uuid="8daeb269-f173-4229-8505-78098d58c0a4" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="1dd250a4-6a7c-4b9e-a148-b0a31309c8c0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="1cb075d3-a661-46d7-b667-16cae2697840">
+      <Part uuid="017ae181-c224-431b-a839-9e594e34884d" designID="3002" partType="rigid" materials="1:0">
+        <Bone uuid="f632cf52-65c6-446a-b22c-a1fdb451bdbe" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="6111" uuid="89bd8c04-bc72-49b7-8c73-d88db24cf7b6">
+      <Part uuid="6f6dd5f5-7b67-475e-9c05-88948a119dc5" designID="6111" partType="rigid" materials="5:0">
+        <Bone uuid="f93d377a-2dff-4091-b68e-cd72eecfe8b9" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,4.16,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="dc16c3f9-d6ec-4fc4-a489-ca35225ef7d1">
+      <Part uuid="cb0e5654-17d9-4776-af43-58a88cfea9e9" designID="3002" partType="rigid" materials="212:0">
+        <Bone uuid="c544bcfa-2a02-49ef-8753-340958c8af95" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="1ef2e309-f232-4b43-9998-b2f3fd321aa5">
+      <Part uuid="06fbf687-df24-46f1-988a-d64daeb5541d" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="25d36c5d-9680-49a5-abeb-ef7f7c83d422" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="5089c329-f1d5-4cea-9462-468d43a3f4bc">
+      <Part uuid="ac68f99b-6c0b-40dd-9ebc-40c9a8819b20" designID="3002" partType="rigid" materials="212:0">
+        <Bone uuid="e10af10a-0704-43e5-8058-81a4df3ec1a5" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ce922f0b-a1e6-472d-a19d-34ebd13c63c9">
+      <Part uuid="426f888e-70c4-414e-a7d6-e142a081c728" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="af6a946e-0b38-4ee2-824f-519a1e47f1a7" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="5194a279-98aa-4b4e-8a1c-71f33392a146">
+      <Part uuid="bbf2a931-9ddc-4093-9f24-52e00730943a" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="1fe09ca7-9a79-48d4-882b-8fed12294242" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="933aaad9-a0f8-4fb6-8661-ec1630bc7d2d">
+      <Part uuid="0f005a76-5b38-49a9-a6ac-d58a429288d1" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="679f81a1-26c9-485a-968a-bc8af6fbcd91" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e95046ba-f99f-411b-bb3c-39cc2d28602d">
+      <Part uuid="868f9f49-0529-4cfc-9a0d-5ce34d2257a0" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="a05cc07d-c124-46bf-92fe-99b8f6695ee2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="944309fb-88da-4c80-8aa1-d64d73a83972">
+      <Part uuid="143d4a9c-e57a-4050-ac33-6c0112978689" designID="3002" partType="rigid" materials="212:0">
+        <Bone uuid="dfae3122-40eb-40a2-b111-7d90cb4622f3" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f2d80020-465b-4010-893c-b4be4c8699f8">
+      <Part uuid="237a7c28-439e-4199-9406-d2128519d621" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="1da4bcff-3651-4ec5-9fb6-46349c08ded0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="b6ac2a01-f5f4-44d9-a0e7-1d947f5f9642">
+      <Part uuid="b281a8b4-cbab-4471-8a86-68f768c83c6e" designID="3002" partType="rigid" materials="212:0">
+        <Bone uuid="d0b6d3b4-5b1b-4331-9d1f-699f2a935f6c" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="1c06e1b1-6e68-4886-9039-05d3faadda59">
+      <Part uuid="8a652bd8-21c0-4fd8-9b39-4558135c92c7" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="b85e9069-bf30-4c7a-9f89-b5a4e9a93edc" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="039eb3f9-322b-4c87-9a93-73c478a5c47b">
+      <Part uuid="6622bf58-1dde-4484-9267-2bd7729ef243" designID="3023" partType="rigid" materials="212:0">
+        <Bone uuid="b07ddd44-3b81-4fa7-9908-7b95d807664d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="981aa4ed-51f6-40bf-9fc3-5187bb389d54">
+      <Part uuid="161176e0-501f-4405-8d4b-fdf3d6d36a6d" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="c83cb768-3a14-48ea-ad92-f5fddc4acdaa" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="63864" uuid="34c49cbd-f475-42fa-a7e2-518b3586458e">
+      <Part uuid="52038222-42d1-4c6c-bd6f-563a8e474952" designID="63864" partType="rigid" materials="5:0">
+        <Bone uuid="2fea3ff6-a81c-488b-9574-5d4074ca58bd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,8,-2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3c7271f7-aba6-402e-8a4b-c35f0a7c4aff">
+      <Part uuid="342200c1-b40d-4ed2-a4a6-14fda04ee361" designID="3004" partType="rigid" materials="212:0">
+        <Bone uuid="6f653c5f-662f-401e-b4d6-fbfbcba2496f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="c1989483-e2a4-4bdf-9bef-c21c29f29963">
+      <Part uuid="4f8e56fb-aa10-4d2d-a133-29141e2da05e" designID="3002" partType="rigid" materials="268:0">
+        <Bone uuid="775a8462-973f-42cc-a2bc-d76744856eca" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="b9ebfc59-1364-4900-94de-b89428953c3d">
+      <Part uuid="ad360564-9767-4f6e-9d67-37a05311976f" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="081ff36d-59de-414b-9754-5b2954357a27" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="32d1c8d7-fefd-4137-a6b4-302191e154bd">
+      <Part uuid="628f2253-c96c-4b91-869a-96ca4633dbb6" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="6fb2deea-70a1-4112-ba3a-00444547fbaa" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e32a85e5-fc14-4a75-a68f-e104f6487ad9">
+      <Part uuid="5c8e8847-e310-456a-ad45-34e38f504a7b" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="63987a24-3eb3-40ad-a7da-8490b13584c1" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="d4fcbcc9-25a9-4069-b808-5e0c25500fc3">
+      <Part uuid="f5445df4-e83d-4c46-ab5e-97e2f4668ee2" designID="3002" partType="rigid" materials="268:0">
+        <Bone uuid="85e17ac5-36a2-4579-b6cc-dd9e63fb9414" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="1683da17-d3fc-4766-a3e7-b6bec5c7c038">
+      <Part uuid="d104dbe8-ee92-483e-b0ad-89b787af4fcc" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="69a06f38-49ee-4168-917e-5411fafc6ba2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="ddca60f5-32c6-4a44-97de-51baefea8280">
+      <Part uuid="947aa1a9-0c72-444d-9c61-a6dbe455fc5f" designID="3023" partType="rigid" materials="268:0">
+        <Bone uuid="e2cf339d-ae11-4b8a-99f0-6a58983c3fe4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="1fcb5e24-eac0-4cb7-81d9-1881678c32d1">
+      <Part uuid="554c6dab-3fa1-4239-8c42-0f60be421236" designID="3004" partType="rigid" materials="268:0">
+        <Bone uuid="a12f1574-2e87-4bd8-bcea-88917b6c786a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="4b4b16e1-c081-4041-82af-1c97c9f7adf5">
+      <Part uuid="17a65927-d97f-45d5-a422-4552bff6ce8e" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="62f5c9e4-58fc-473a-9084-31ef72c96b62" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="525e97c7-7387-4136-ac56-b463cebd863f">
+      <Part uuid="577f1a69-9e5a-482f-84d7-34dc206ef3cb" designID="3002" partType="rigid" materials="1:0">
+        <Bone uuid="a5b34bb5-39c2-4154-ab90-54126c437c3d" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="abf51fe5-9598-453f-a975-3ba74a44952c">
+      <Part uuid="d408b7a2-6f66-482d-bc94-ea78028f36ee" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="a9fd5e61-fb0d-4ed1-92b3-a4a5de92d9fa" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="5ecb4bac-99ed-444a-adf5-75ff8eef4ceb">
+      <Part uuid="967901ed-5e7f-47bd-890e-e227f8f9012f" designID="3023" partType="rigid" materials="1:0">
+        <Bone uuid="851615a1-2aeb-4aa2-ab14-8a01e8ae3fd0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="a79b2d5b-b60a-4fbc-99ac-96ee5a8c40ff">
+      <Part uuid="f9c1793f-8bc1-4928-8f6e-de49b5de1bd6" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="8f4e1a59-6916-475d-b5a5-d7d7fc4a59bd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="10314" uuid="b3bb69a4-627b-421c-b9a2-96a6e6817666">
+      <Part uuid="a0695f30-c175-47d5-b388-6848ce06d1c8" designID="10314" partType="rigid" materials="221:0">
+        <Bone uuid="79bafbc1-e9e0-4578-a0a2-19b61992717c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,8,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="362bfc15-6ce2-45a7-8f8b-e50fec4c035c">
+      <Part uuid="89df593d-0a73-4aa8-b48e-ebebc2c2111e" designID="3002" partType="rigid" materials="221:0">
+        <Bone uuid="a2be68b7-b38f-4cd5-93eb-59f388c12060" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="eed3cca1-24ce-43ab-817a-0fc04d50d9dd">
+      <Part uuid="0cec6257-7703-4303-b48a-030bbbc488f5" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="7618c3b1-baa0-4bb2-a1a8-8e4dbdc18ccf" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="6c45c377-7755-4e3a-8677-c751b2e57bf9">
+      <Part uuid="498f9374-db89-4ac6-a77d-3bbacb960aa6" designID="3023" partType="rigid" materials="221:0">
+        <Bone uuid="ccd4adde-7caa-485a-8473-75e487d774dd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="43217b21-2152-4c3c-a50e-27f51c29b35d">
+      <Part uuid="49026c71-5885-4aea-b6cc-f15f543a5d1b" designID="3005" partType="rigid" materials="221:0">
+        <Bone uuid="14c65934-e527-43e2-a5d2-9724c40a18b0" transformation="1,0,0,0,1,0,0,0,1,-2.8,6.08,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="5b350792-732c-4e02-822c-3caaa26b6608">
+      <Part uuid="0373c16b-60d2-4a14-b455-620d8619e42e" designID="3002" partType="rigid" materials="221:0">
+        <Bone uuid="c3d1fa77-5ae0-43bc-a689-9f51f9ec1bd2" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="9814fc0c-2d12-4f5b-bacb-f6fa664c4b2d">
+      <Part uuid="be2c965b-b9d3-4973-a242-ce6a294edc47" designID="3005" partType="rigid" materials="221:0">
+        <Bone uuid="b8c7b91b-e321-40d2-8351-fc3d0411aa80" transformation="1,0,0,0,1,0,0,0,1,-2.8,4.16,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="da193210-f006-4a9c-86bd-b2f1de606379">
+      <Part uuid="eeb744c2-93c2-4747-8484-39ff5dc8de62" designID="3002" partType="rigid" materials="221:0">
+        <Bone uuid="4bf7e914-1055-4f7f-9ac9-e2fd3769ea18" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="c87eb8ae-4ebb-41a6-894a-63301c204a19">
+      <Part uuid="565ba3b7-6937-48e7-989b-f238462c1413" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="e005340c-4f9f-4af7-91e8-3e4ce72515e8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="05f38108-d94d-43b1-a1b3-4fcc1c80b7b9">
+      <Part uuid="5367eb9b-1883-489a-9236-911219897a10" designID="3002" partType="rigid" materials="221:0">
+        <Bone uuid="ed02e798-ded6-4061-b2a8-9c51c19ca794" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="dd8d4f95-d124-478a-bc48-1ee0177d96f4">
+      <Part uuid="10de7cf6-caee-4aa1-999d-b987fd7806a5" designID="3005" partType="rigid" materials="221:0">
+        <Bone uuid="d02b5d91-293c-4f63-9bd1-3fd67066a85b" transformation="1,0,0,0,1,0,0,0,1,-2.8,0.3200001,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e6871985-ca62-4feb-9f2d-571ed6fb1cea">
+      <Part uuid="847f2242-dd3d-4dfd-9cad-7cf8b503c9f6" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="1663e34d-c6e7-428e-bab2-dab88d756339" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="779584e0-f540-4c93-8d6d-c194656cb9bb">
+      <Part uuid="95752cbc-4d82-407e-9849-6c19278e8b43" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="0423703b-bcf1-4c11-b28a-d2a05b7b2d9b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="17854f68-3746-4bfb-928b-a4cc8eabc894">
+      <Part uuid="86a146eb-7f28-4874-9b27-88da00a21fe4" designID="3005" partType="rigid" materials="221:0">
+        <Bone uuid="eb947d0e-9d21-48c9-a61c-d83a437d032d" transformation="1,0,0,0,1,0,0,0,1,-2.8,2.24,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="6c602bd6-5801-4bbc-85f3-ed1fb86e3345">
+      <Part uuid="cc65f26e-ac3c-4a96-9dd8-9344f0904771" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="3c862078-7a75-4a37-a403-9a81e1490dd2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="6771318b-3e13-4fdd-8b85-8a3610f01f96">
+      <Part uuid="82a68ed4-0b31-4c97-9d0e-810630894632" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="7c9ff848-129a-49d5-a4d8-f027276db586" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="40e7d760-45da-4c48-980d-f54d70ecdae7">
+      <Part uuid="41897c11-4f9b-4809-bc37-f086ca9f9289" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="c3c75b95-38dd-47b5-b6d1-2cab38940b64" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="88427c52-9ee8-404b-8dba-0f76fbea7483">
+      <Part uuid="0f1e1b5f-4d9a-409c-888d-4a63c968896d" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="83fb5fc3-826e-45a2-a24e-e41467e493ff" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="fa91f195-143f-4117-8a4a-c101a17142df">
+      <Part uuid="e6c191c0-316f-4942-b1b0-1c46181beb3e" designID="3004" partType="rigid" materials="221:0">
+        <Bone uuid="056b51ba-07fb-4535-a6cd-52f7c87f17cd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="183c32e8-67a8-4472-b97c-b2879dcd352b">
+      <Part uuid="fbf218b8-6250-4ee4-b8a8-81f2257887d9" designID="3004" partType="rigid" materials="1:0">
+        <Bone uuid="17e0423b-e4fd-4534-adb4-39cb337baba4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="be5585bc-71d5-4a95-be9a-6741d50fd03b">
+      <Part uuid="1aa8683a-5f0a-4bfa-844d-4fccaa9852a8" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="d0b773b4-ce43-432e-8511-f0b03c11b43a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="c5abd9cc-de9b-446a-aa35-91c73d5d006e">
+      <Part uuid="11ad7991-0b24-4cda-a25f-fe1bdfaab413" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="8a40fceb-b149-4968-ba31-c21a70a7a980" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="92a03176-94b5-4b4c-854f-a8a0803fc02c">
+      <Part uuid="d34b6f00-a18f-4f53-9f8e-b7650a018bcb" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="28ed106f-2559-4380-bc76-6d074e16da9b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ee77b236-27a8-4279-872a-f1d681b6cd1d">
+      <Part uuid="564fdbc7-bed5-444d-94e2-812979db7d56" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="4cbdbd26-a9a9-406d-bbd8-94d0615f00b6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ecefd390-2766-4464-a5e1-c6ccef27a3d4">
+      <Part uuid="deaa68ca-8d63-4db2-8719-7e1fc68bd5e4" designID="3004" partType="rigid" materials="23:0">
+        <Bone uuid="d1659101-e270-4f04-95aa-aa8280deaab9" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="7ea936b5-5f19-4bb2-bf84-877e30d14471">
+      <Part uuid="8cb6e2e2-d1f7-4e65-8007-5a6012350016" designID="3002" partType="rigid" materials="37:0">
+        <Bone uuid="30d19313-f5c3-4316-9bb1-c20d34e644e4" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ec7257fd-d38e-4234-9bf4-05e5de29818a">
+      <Part uuid="c734845f-13d2-4dd5-a967-1ba90ab9cdef" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="d62b09d8-352a-4950-9469-29a5de22b221" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="9db48eab-1852-424a-98b0-1fc27e88802d">
+      <Part uuid="e04ac125-abc7-444e-8c0a-089c476f4bfc" designID="3023" partType="rigid" materials="37:0">
+        <Bone uuid="5664813b-8e76-408f-9920-91a5f67457d5" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="fdc91f4b-21db-43ea-b629-4733ef1012d2">
+      <Part uuid="a32bf9c6-fb5b-4771-b2a1-cb6e9ec5e456" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="4e3274ef-9044-4b27-a334-6e816340bbfe" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="63f005eb-87bd-450e-b722-2dc9a8ecc630">
+      <Part uuid="7eb79f34-b242-4774-ac55-a80c6a9fd519" designID="3002" partType="rigid" materials="37:0">
+        <Bone uuid="8db62c53-a362-4a91-9d03-efb406f5c49c" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="c144fa70-f390-4d20-a3de-8d3874372e62">
+      <Part uuid="a55f260a-dd4a-4755-8a2d-fe6fa11761d4" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="a579c8fa-9361-4365-aff4-10e8b941a637" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="cc7c3d4b-84c4-498b-94c8-47bd1afb676b">
+      <Part uuid="3644868d-9274-4f38-9ecc-f1966a01ed8e" designID="3002" partType="rigid" materials="37:0">
+        <Bone uuid="9d6e021a-85a2-4e2a-bffa-4aab9e0b9c00" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="ffb72d83-7a4a-414a-a006-6d15bda56eb3">
+      <Part uuid="7283e193-08b6-4e67-bd41-4006072588f8" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="969f29b4-d8cb-4138-a52e-6199f9dc88e8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="ba82c16b-d3f1-4ed8-855f-1386b7fcbd73">
+      <Part uuid="8e0c8d0a-4c2b-4926-9cb1-2f31a7f4841c" designID="3002" partType="rigid" materials="37:0">
+        <Bone uuid="58f13be0-112a-4a2f-903a-eeff876c05ee" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="08ba5a0e-ae9f-4485-a725-d8542e9aaf47">
+      <Part uuid="18606600-ee63-44a8-a527-5a0e0eb74903" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="b40cf8c0-d0d4-450d-bac8-cf92818f24a6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="022ee5b4-2c17-4d4f-b838-03a01c479dc7">
+      <Part uuid="850552d8-53fb-4274-bb7e-1443bec70b99" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="057996e0-ef16-45fb-82e4-12a490171f75" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="81a6a3ee-e865-480a-b31b-571892d95a46">
+      <Part uuid="93758c9e-b420-4a64-b5af-93f9ebaa06b4" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="b18e5cd9-d24d-467d-b82a-21a13a69d19e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3fa67a4d-d738-415a-8655-430e1b6ea36c">
+      <Part uuid="328173a8-ed69-4949-ab94-3bb48d953bc7" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="ed51304b-1fcd-40fa-ba45-949061da41be" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="3b84c73f-8248-446a-afac-db32770d37b1">
+      <Part uuid="a784c924-ea69-4a8c-ae7d-b2a9c5417af5" designID="3004" partType="rigid" materials="37:0">
+        <Bone uuid="6ae7d122-8b17-4244-877b-cde31186b662" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="aed6ce81-6cde-426d-b340-27e25c5f1ba4">
+      <Part uuid="ff810320-e471-4705-a4ba-428a3145ba93" designID="3002" partType="rigid" materials="21:0">
+        <Bone uuid="0968eab7-2c95-4385-9015-5b1b6f9133f2" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="a4b2cc37-e784-4e6f-8c34-92974fa03327">
+      <Part uuid="2187c80a-979e-4e92-af9b-5a483061ccbf" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="f8bc410b-6be8-4cee-82da-84674ac170c4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="5accc79d-903e-4ee7-93ad-e0711e92a6f7">
+      <Part uuid="14fba30f-9730-48de-923f-3c76e19d9aa2" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="dcd1eed9-1006-4e0f-99ac-ef64701cb305" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="188aed04-9a1f-4f9d-afc0-d3a72db5c860">
+      <Part uuid="f25ae07e-0819-4b98-bba5-39e6de62118c" designID="3002" partType="rigid" materials="21:0">
+        <Bone uuid="ff438e33-3340-4f90-9486-5892075d884d" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="5ea567bc-6426-404a-8811-6802031455b0">
+      <Part uuid="d6b9e74f-293f-460d-a11a-3bd6054f01a6" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="f8c19bbe-d420-4af3-9b5a-3a64ee46ee36" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="bb84c92f-f93f-4b46-8a65-b3420b48d4fb">
+      <Part uuid="1b141ecf-00c7-4165-83e1-ab89e52f11ba" designID="3023" partType="rigid" materials="21:0">
+        <Bone uuid="e67aaa93-6596-447d-89ab-93744557810d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="e5d055ea-a836-4a62-ab98-6d1209dd9039">
+      <Part uuid="615e00a4-732c-4011-bc98-38bc5df108a6" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="458f9eb3-9ff0-49e4-b6a3-4c09a7fb6a6a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="63864" uuid="da52c59c-8e50-4112-8a72-cff6eabf1bbf">
+      <Part uuid="7662eadc-8147-4f37-bd9e-bf7f55fa6868" designID="63864" partType="rigid" materials="5:0">
+        <Bone uuid="80ca8b69-5483-496a-9bd8-ddf206f8ae01" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,8,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="c3e8a17d-09f3-4b2e-b6e9-c2ec9a8ae530">
+      <Part uuid="61130eef-0fad-4d16-b93b-6331acaea549" designID="3004" partType="rigid" materials="21:0">
+        <Bone uuid="ceced734-8dfb-40f4-9021-b23aede516a3" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="e536d866-71b0-4881-875f-c2c47850e812">
+      <Part uuid="a9716c90-5bd6-4fb2-b3f5-ed9234ea10d1" designID="3002" partType="rigid" materials="192:0">
+        <Bone uuid="7568481f-af44-46f5-80a4-9a0856f850db" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="b1e8a00c-7d0b-47f6-9b28-e14590767ad4">
+      <Part uuid="e86441da-ff4f-4fce-ab46-9ffc0fc77796" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="a83f99ab-3c3b-4ac2-bdb9-921ef21f76b6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="da312170-8ab9-4c23-8d18-fd9270f4be4e">
+      <Part uuid="d8d27880-7eeb-4c58-827c-0d6ff60da840" designID="3023" partType="rigid" materials="192:0">
+        <Bone uuid="ba24e49a-cb26-447d-8a3b-c84fe18e4dba" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="057e5bda-b08e-48a7-a9c2-bfa336a0522d">
+      <Part uuid="146fb990-b32f-421f-abe2-b0123619d85f" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="7b2e76b8-cad3-412a-aeac-7b1a9bca4aee" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="b383225d-976e-48f8-b0b3-64c873a6262d">
+      <Part uuid="5503bcfb-85c6-4bb2-b304-003d1cb7051f" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="cff7ae64-3b23-41fa-9367-81b429179e2b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="10314" uuid="39fa83e0-94ca-4c31-a2a5-c54dab71c3ae">
+      <Part uuid="f085609b-f998-4330-a715-d5ae535e530d" designID="10314" partType="rigid" materials="26:0">
+        <Bone uuid="3e023b50-1ab4-42d0-86f0-348993b801dd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2.8,8,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="a319baf7-af73-431a-9afb-e1a3c1217544">
+      <Part uuid="eea9416a-a181-431e-8a91-2f98356ab6b3" designID="3002" partType="rigid" materials="26:0">
+        <Bone uuid="c69acfae-836a-40b4-abec-1f42cc98b5a9" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="8b0b24a1-e9d7-4253-9f24-568d5c2dc7de">
+      <Part uuid="1a48abcd-41cb-45f6-8ca7-735a7e30018d" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="fa3fd118-9a19-41e4-9c99-f5da54a691e2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="1ae17fa2-87e3-48cb-8874-8d49ec76fe53">
+      <Part uuid="ba07f95f-37f1-45df-9f1e-19d36a594366" designID="3002" partType="rigid" materials="26:0">
+        <Bone uuid="89f55cb3-644e-46c2-a371-b8a3bdfa1501" transformation="1,0,0,0,1,0,0,0,1,-3.6,5.12,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="126f38c2-2ff8-4e1a-96d0-d93cf8518764">
+      <Part uuid="20f0599d-8078-4552-a7b7-7eccdd8aeab2" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="4f4a7432-6496-4c3b-a462-b0dbd54fc0a2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,4.16,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="c4334475-b6dc-4f35-8a96-45330afb3628">
+      <Part uuid="610fb5a9-a491-4188-864e-872fc09306f1" designID="3002" partType="rigid" materials="26:0">
+        <Bone uuid="a5132d27-e5ff-42ff-8d80-69356d831089" transformation="1,0,0,0,1,0,0,0,1,-3.6,3.2,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="8b76e5bd-081a-4cce-a3a1-4855debd7c10">
+      <Part uuid="c28ca1c4-d5fa-43b6-962d-43a09aeb6b2c" designID="3005" partType="rigid" materials="26:0">
+        <Bone uuid="447990a8-f28c-4f04-8585-11a5625964c0" transformation="1,0,0,0,1,0,0,0,1,-2.8,2.24,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="c26db781-e803-4f41-979f-1408782eedc4">
+      <Part uuid="a837e3a6-c15a-4d29-955d-a35b7e167f5a" designID="3002" partType="rigid" materials="26:0">
+        <Bone uuid="31bd3069-c924-4780-bf77-1289258f8141" transformation="1,0,0,0,1,0,0,0,1,-3.6,1.28,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="10fc8174-b6d0-47f3-a199-1bd2acd886ca">
+      <Part uuid="f1527006-4be6-4cb8-aea1-cc469ebc92ed" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="8d00ffa8-1d18-4ca9-90ba-d33a7a73349f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="c1bcbd1d-641d-418b-8901-d4cef3273cd6">
+      <Part uuid="1a3b952a-79cd-4140-8b20-200c9297eb1d" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="eb9738b3-9a74-44ec-a535-0c7b0ff0436c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="56171d5c-b504-4a14-8e9f-7e2242d60932">
+      <Part uuid="bfaff6ff-1c4b-452d-a276-81281522a119" designID="3005" partType="rigid" materials="26:0">
+        <Bone uuid="482cca7e-c77c-47ac-8b5b-f9f507ed23ad" transformation="1,0,0,0,1,0,0,0,1,-2.8,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="4d73b63e-ebc6-4e05-ba05-e8355ded2ee1">
+      <Part uuid="92010c73-10b0-4bc6-b231-03eca2ccee4b" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="3a123375-22f3-44c2-8ca0-652c492fcd2f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,2.24,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="2c1de253-5b46-4e9c-a038-22742ecc9a02">
+      <Part uuid="fc961772-a357-4304-b322-32bf32862986" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="65d88fa7-9bc2-4c12-928e-649eb96b3a5c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,2.24,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="d6f7842a-c3d6-46ee-ac79-9c5bccc001c6">
+      <Part uuid="229d40a8-d649-4658-92b0-d3ff7490103e" designID="3005" partType="rigid" materials="26:0">
+        <Bone uuid="5d55a413-a6d7-45c3-9fd4-5931eb19e797" transformation="1,0,0,0,1,0,0,0,1,-2.8,4.16,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="4efcd723-2a04-469a-b64d-021453a2ee2e">
+      <Part uuid="4078953a-eac4-4c5b-9046-606526db89a9" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="99bc23b9-cc3c-4ece-8dbb-43c267c00c69" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="6af69f66-43e5-4b63-9136-a7b11fcd3232">
+      <Part uuid="34dabd36-70a6-4eda-b308-9772eb57ccfc" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="935aab39-b6d9-49eb-a7d5-ecf32b1a0066" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3005" uuid="73e35722-c613-4812-b9e2-fb9a7a9c9018">
+      <Part uuid="7e18c79c-51aa-4ba5-8184-e6299d422b28" designID="3005" partType="rigid" materials="26:0">
+        <Bone uuid="71bd20a9-c155-48b1-bef6-a93af8aa244b" transformation="1,0,0,0,1,0,0,0,1,-2.8,6.08,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="57d5af7b-69f5-4def-8e74-d8f62a7e78f7">
+      <Part uuid="ee783bad-4219-41ca-aa57-0018e618244f" designID="3004" partType="rigid" materials="26:0">
+        <Bone uuid="2f31471c-f67c-4bd4-abb2-61b53f191e6e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="5d188dc2-ec59-4df7-8ab8-81eff7018845">
+      <Part uuid="9232f5f6-dbf6-4c71-af10-5160d636654c" designID="3023" partType="rigid" materials="26:0">
+        <Bone uuid="3a3a5ba3-29d4-4b14-a0aa-7d23a1945337" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3002" uuid="b8a94e04-d76a-4ea2-a2b5-ac08f709b6cc">
+      <Part uuid="cdc20147-831c-4f0c-8804-9fb5e5510ed9" designID="3002" partType="rigid" materials="106:0">
+        <Bone uuid="caeaae44-6c49-42a9-b416-b18ab4e2a778" transformation="1,0,0,0,1,0,0,0,1,-3.6,7.04,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="8537587b-d81b-4724-b73a-e4f0c1bc9d6c">
+      <Part uuid="9a3e910a-5b82-4889-87b5-2dcd652ceda6" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="1d216cdc-405e-4963-8e3b-65462b7d8fc2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="9194768d-5492-4e98-8ff9-6bb30451e39b">
+      <Part uuid="6a888f90-9d26-4a75-be32-0d2ce8516b25" designID="3023" partType="rigid" materials="106:0">
+        <Bone uuid="e80d0809-0ac2-42fb-877a-03c700aa55a0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,8.96,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="f73ef653-c796-4eae-8e8d-32cb5ae77e9a">
+      <Part uuid="cf9cc1f7-a6b7-469d-b4aa-ed40acf1a4a3" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="0ff43229-2398-48e6-b792-1dd60fb6c4da" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,6.08,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="9c10d66f-f36a-4e10-b3bd-3908f207479b">
+      <Part uuid="77ee12ae-59a8-48cd-b987-e663c8c2409a" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="bf72bb3b-7f7d-4e89-a8f3-189b64f273ab" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,6.08,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="8394f396-43a1-4934-be31-a260c0f7c0ea">
+      <Part uuid="8ae6a13f-bef6-4ab9-8a5c-6ecc6e8e3584" designID="3004" partType="rigid" materials="192:0">
+        <Bone uuid="f606faca-b858-45de-9e55-9852f18a96b3" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="fe86b3ca-0e3b-42ce-bf64-05a1edacb0e9">
+      <Part uuid="c4017ee9-bcbd-4107-ad27-c4fd284b0cce" designID="3004" partType="rigid" materials="106:0">
+        <Bone uuid="a2730516-bceb-49cc-bfeb-e9a2248f3aed" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,4.16,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="4282" uuid="5a2e060b-da91-41cf-b5c3-12b8110d1a96">
+      <Part uuid="11848d8d-ffc6-46ef-b1b0-726614c725d3" designID="4282" partType="rigid" materials="1:0">
+        <Bone uuid="516a66a5-6601-4d5e-8e40-8bdbc6b018ba" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,8.4,-0.32,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="2445" uuid="dc60a3a1-d3c6-4924-9fd6-9695fe5c7ca9">
+      <Part uuid="95744681-bffd-4024-819f-4c542617e8b5" designID="2445" partType="rigid" materials="1:0">
+        <Bone uuid="666dc3cd-78e5-47f6-ab89-797f6211e62b" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,2,-0.3199999,-0.3999999" />
+      </Part>
+    </Brick>
+    <Brick designID="2445" uuid="05292276-e5ed-4619-a60c-47d7d86651fa">
+      <Part uuid="927cefb1-cfb8-4efa-aff5-a6e78653dfee" designID="2445" partType="rigid" materials="1:0">
+        <Bone uuid="cde61f1d-9c22-4d1e-b6c2-9c60401e1ad7" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,-3.6,-0.3199999,-0.3999999" />
+      </Part>
+    </Brick>
+    <Brick designID="2445" uuid="d2299920-ed8b-4658-aa92-3ff8e644d41c">
+      <Part uuid="a561fed5-d6db-4f0b-a6f5-fc53cef421a2" designID="2445" partType="rigid" materials="1:0">
+        <Bone uuid="15af64e4-3b29-477d-b9da-9d60e56bf29a" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,7.6,-0.3199999,-0.3999999" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="73c2dace-38b2-4eb7-8371-2293342fea64">
+      <Part uuid="6b962de1-6402-4f7b-8bff-37aa210fe9a2" designID="3023" partType="rigid" materials="192:0">
+        <Bone uuid="a26468c6-a713-4f79-936a-f924e31e8f8c" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.8,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="2a0058d3-5054-44e6-8db5-8469dee730b6">
+      <Part uuid="9bf2b0e4-8cd6-41d1-bb75-24af1271711e" designID="3068" partType="rigid" materials="26:0">
+        <Bone uuid="81c92675-440d-48e3-a5b2-c05457acb285" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="ab600dc5-c9a6-447a-8df4-25ba47dfa7f4">
+      <Part uuid="c7e2b491-4c9d-49c1-883b-acfffa9cb719" designID="3023" partType="rigid" materials="26:0">
+        <Bone uuid="00ef5598-a9c6-40e0-9dd5-86f7a612b0ca" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.6,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="e6987afe-97f0-4d35-aaf5-9e82d611b8c1">
+      <Part uuid="a26a721f-f3fa-4bc0-8bbf-ba59bbd431a3" designID="3068" partType="rigid" materials="21:0">
+        <Bone uuid="3d700dfa-3c3c-4cf6-ae61-3c5790617aa3" transformation="1,0,0,0,1,0,0,0,1,7.6,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="6e609d63-a5b0-4e7b-be04-75a06db5264f">
+      <Part uuid="dde6f75e-1d53-4f7b-afc4-4d91b14274ae" designID="3068" partType="rigid" materials="21:0">
+        <Bone uuid="8fa4f398-05c9-41b8-aacc-40b2420d8118" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="3e6f5fad-4c89-49b8-8ae8-b5013c35b485">
+      <Part uuid="71999151-e782-4223-9aec-3aef521493e5" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="7c3366dc-fc1d-49fc-80ae-e7c617c1345f" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="6c818468-cfff-4e80-9532-bc9e1e225c3e">
+      <Part uuid="e5a4569b-d5bf-46e0-bac3-f3d587e4d34b" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="087bc30a-82a7-495d-a8e3-62490a02e3fe" transformation="1,0,0,0,1,0,0,0,1,7.6,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="55587202-5a2d-4a42-a8f0-61faae7b8df9">
+      <Part uuid="c363f9ae-ef55-4509-85b7-c465dfc9e114" designID="3023" partType="rigid" materials="21:0">
+        <Bone uuid="7cdc5a34-089e-4839-be17-46c9db257184" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="0c8daed0-4cd3-411d-8215-819d9fde9909">
+      <Part uuid="ea5be739-1c3b-439d-a815-4a50b01c98bb" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="53917682-e0b7-4d62-a42e-80354a5b3785" transformation="1,0,0,0,1,0,0,0,1,2,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="cb4e55e1-d307-4a30-8faa-a34987549aef">
+      <Part uuid="967b6251-3180-4b3d-ba2c-81029eca6663" designID="3068" partType="rigid" materials="21:0">
+        <Bone uuid="f4737fcf-3670-4c50-ba52-dec9d379df63" transformation="1,0,0,0,1,0,0,0,1,0.4,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="13173175-2418-4190-8e2c-954fb1b4d9c0">
+      <Part uuid="a84eccca-8aa4-4c29-8862-8125a7572ed5" designID="3068" partType="rigid" materials="21:0">
+        <Bone uuid="e0300f53-241e-4042-808f-8bee324ae0be" transformation="1,0,0,0,1,0,0,0,1,2,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="37802999-9962-4645-b1a7-34dba9e5bfb2">
+      <Part uuid="796620f2-103e-43a3-8275-1240c36e62e1" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="8e9036ea-a5a4-4303-8187-3c878e768745" transformation="1,0,0,0,1,0,0,0,1,3.6,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="b09282d5-7597-417a-be50-43e823cd4d14">
+      <Part uuid="9ce5dc31-0225-44f9-94c7-c596eab6dae3" designID="3068" partType="rigid" materials="21:0">
+        <Bone uuid="1b2169ce-29f6-4915-b7e7-cb5250b296ca" transformation="1,0,0,0,1,0,0,0,1,3.6,0.32,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="ae84be5f-aeea-4a21-83fe-293fe030511e">
+      <Part uuid="c587826f-0856-4edb-98cd-2ba168464e82" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="29f101cb-b8e9-413b-b6ab-e1a940193e33" transformation="1,0,0,0,1,0,0,0,1,5.2,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="4cf7ded1-5736-48f2-b4a9-b6476467fc5a">
+      <Part uuid="3ec4ca3e-6492-41e1-b2be-3dae8e03e792" designID="3068" partType="rigid" materials="192:0">
+        <Bone uuid="dd2a2d89-eb2e-404d-b4da-a6ae96b5947b" transformation="1,0,0,0,1,0,0,0,1,0.4,0.32,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="3dc2610d-b366-4ead-9a7b-b8c9b366c605">
+      <Part uuid="9fec78b6-4585-45ca-a572-6f1a9cc5c6e8" designID="3068" partType="rigid" materials="26:0">
+        <Bone uuid="37652b56-9b40-4ec0-b00b-22adb905ff25" transformation="1,0,0,0,1,0,0,0,1,0.4,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="29dedfbe-5859-40ac-bc57-11b0f3c654a9">
+      <Part uuid="1ca5c2a7-5aaa-4b66-8f28-3e9e7ae3e037" designID="3068" partType="rigid" materials="26:0">
+        <Bone uuid="f60bebaa-7a38-46ff-964d-dec314096d20" transformation="1,0,0,0,1,0,0,0,1,3.6,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="d0abd852-cd3c-4193-9441-85785e62bafd">
+      <Part uuid="c529b8a7-dfce-4169-b423-42405c0c588e" designID="3068" partType="rigid" materials="26:0">
+        <Bone uuid="9a0f96e7-e123-40a6-a064-994c70d951f5" transformation="1,0,0,0,1,0,0,0,1,2,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="d80157a7-67cd-4948-ab4b-45c9ad542fd5">
+      <Part uuid="65bf42cf-a27c-49e9-9d01-38238b57fef9" designID="3068" partType="rigid" materials="26:0">
+        <Bone uuid="5fbc0f2c-be73-4d2e-90bf-e4e63f87dd6e" transformation="1,0,0,0,1,0,0,0,1,5.2,0.32,10" />
+      </Part>
+    </Brick>
+    <Brick designID="3004" uuid="88e23ebf-23d8-4e58-bd1d-9eedf6f6be23">
+      <Part uuid="314e2fb8-3767-4791-895e-95a313fd95dd" designID="3004" partType="rigid" materials="24:0">
+        <Bone uuid="6b9cc795-5a42-4496-b868-05ed5c6c3c5e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-2,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3795" uuid="13a27e8e-2170-474b-87f2-d54146a23d49">
+      <Part uuid="2d37cf92-4004-4264-b364-41bad4ea505c" designID="3795" partType="rigid" materials="1:0">
+        <Bone uuid="55b062be-8b83-4c2d-80e3-108bf51109ea" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,-3.6,-0.3199999,-5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3795" uuid="e5b3bdbb-20b9-4011-b32a-c3d0ff53dd0a">
+      <Part uuid="6eb1ae10-d0e0-4d5f-bacd-82d6723ea01e" designID="3795" partType="rigid" materials="1:0">
+        <Bone uuid="e985924d-4000-4b0c-96a6-36a02072b991" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,2,-0.3199999,-5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="4282" uuid="c2ed0bc1-5f66-4e4d-bcd8-a6e5b051951a">
+      <Part uuid="65d35e9e-773d-4e7c-a1d9-34439e613845" designID="4282" partType="rigid" materials="1:0">
+        <Bone uuid="6b073cf5-fd4a-4f49-a84c-0c4288904363" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,8.4,-0.3199999,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3795" uuid="ba38d44f-9bf8-4553-bf67-d423d1899282">
+      <Part uuid="0fa629c5-8792-4e62-a7f7-9ff6626a2ff3" designID="3795" partType="rigid" materials="1:0">
+        <Bone uuid="48da4c90-4138-4af2-9655-bc7384684e0f" transformation="-0.0000001192093,0,1,0,1,0,-1,0,-0.0000001192093,7.6,-0.3199999,-5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="5507c15e-43fc-4b8d-9c33-8edaca7e70b8">
+      <Part uuid="01ba6daf-1c68-4cda-86d3-8ace23668141" designID="3068" partType="rigid" materials="24:0">
+        <Bone uuid="1f9e6f2b-4771-44d4-b272-59c8c38ac1bc" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="5ddeacd7-439a-47f1-ab7d-4d359304c168">
+      <Part uuid="59404fd4-4d42-41c1-a879-274243aa0b61" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="4cf154ac-e499-4822-a02b-ebe1d8ee56ab" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="ada7fa40-45a1-486a-ac18-531aca909361">
+      <Part uuid="e8b3a336-83ee-41db-87fa-982940f2f40e" designID="3068" partType="rigid" materials="24:0">
+        <Bone uuid="a5abb9f4-2ae4-49b0-8d75-f26c6fcb5cae" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="64fca9d1-59dd-493c-8911-0c3dd422255d">
+      <Part uuid="f0d6c464-2575-4339-88d4-d28a1180f28d" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="21e6d714-ca91-4ed2-9309-347adf83debf" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="78fa82ce-74b3-45b6-8004-84ccf3ded5d9">
+      <Part uuid="4a74f17a-d32b-40f8-9d27-41cf290c8720" designID="3068" partType="rigid" materials="221:0">
+        <Bone uuid="6625b90b-627c-4327-b9ad-a7e946b1aaea" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="961f5c8e-c160-4f39-abc4-f0d35bd2df28">
+      <Part uuid="4ff56b68-c265-473e-a4c8-e5761d9ecff0" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="8be4ddd7-6833-450a-9ada-54d87b1008a3" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="2de0611c-bd8e-48f7-9599-0e87fe2f0fdf">
+      <Part uuid="502fba2e-50d3-4092-9ac4-4fe660beff3c" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="c5f1898b-7100-44ab-903c-1e4425ac4273" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="0073e6f3-7ac8-4a8e-b5a0-3307718f4881">
+      <Part uuid="89840430-48db-4308-b607-0f775de6e30c" designID="3068" partType="rigid" materials="212:0">
+        <Bone uuid="0142aab2-ea61-4b73-86da-5ddf09aa26c7" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="b27a3eb6-e8ff-4327-8797-531f4c6ce362">
+      <Part uuid="8a4e7335-9be0-4d86-b3f1-a27b36e5e39a" designID="3068" partType="rigid" materials="221:0">
+        <Bone uuid="ad2a8294-3b00-4ca9-852a-db248246123f" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="ec0726c0-4e35-4111-a128-16ec9ed34f5b">
+      <Part uuid="26739547-3649-43fe-85c0-162bfaa4c9ff" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="f72c1518-a457-4aa6-bb1e-7a0750a3c51e" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="cee72bb8-a6f7-43e3-9e1f-88068baa6cfc">
+      <Part uuid="40c9af6c-ee27-4c8c-80e0-78e270c940a7" designID="3023" partType="rigid" materials="106:0">
+        <Bone uuid="bda7b532-43e1-43af-bdde-28e8c75abb1a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.2,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="8ecb46a2-491b-4bdd-be20-b2f71cde98fb">
+      <Part uuid="e9b03f75-aee4-4ec5-b5eb-37266a177fea" designID="3023" partType="rigid" materials="37:0">
+        <Bone uuid="84aba243-8670-4fe9-b4dc-2229d7a494e6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.6,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="72e96fd7-f5b6-4894-94a0-8046ba946a6b">
+      <Part uuid="b63088df-5cb7-4a1a-96d7-1974808a4a23" designID="3023" partType="rigid" materials="1:0">
+        <Bone uuid="36b59cb4-685e-4b0e-969a-00536c9f2722" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.4,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="6816dcd7-d2d8-4550-aa85-4fada335d518">
+      <Part uuid="6040fd09-11c1-4e0f-ac4b-b497e8e867b0" designID="3068" partType="rigid" materials="212:0">
+        <Bone uuid="b6404730-4ce8-43ae-8524-84ba07915fce" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="25132d00-660a-47a7-813f-62e9e7a90927">
+      <Part uuid="0772ddc8-fb2e-4649-8b7a-2692fdec54ad" designID="3023" partType="rigid" materials="221:0">
+        <Bone uuid="ec584340-ce5c-4f82-b224-a59efe44656a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="a7bae247-0fd6-4273-9001-9c85f74a501e">
+      <Part uuid="03c749cd-13b2-4ef9-a38e-ac35dc2359cd" designID="3068" partType="rigid" materials="23:0">
+        <Bone uuid="e8508086-1689-4a6f-b82e-86723103d773" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="bf47875a-5a02-4a76-a736-047e9cbedebe">
+      <Part uuid="8b7d7d28-baf9-4e61-801d-d89750128afc" designID="3068" partType="rigid" materials="23:0">
+        <Bone uuid="bab76c8f-3348-4614-b086-5271e190debc" transformation="1,0,0,0,1,0,0,0,1,-1.2,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="7ba42f06-0599-4d24-8ebe-5051eeb442de">
+      <Part uuid="9c20e40e-8289-45a6-b979-2fe8b5b4991b" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="0e30b7e5-28a0-44ca-9823-e6a6dcc6e7ad" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="4a5860d5-a3cb-4c4c-b7da-95ac88fc7110">
+      <Part uuid="b6e60581-56a2-48cc-b6ab-0a7a07409534" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="8dc068ae-0ee0-4f4b-8c47-e61442101093" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="4636d224-bb79-4752-a981-ff6ceb2ff73b">
+      <Part uuid="ee38d8ff-6043-4cc1-8f2c-c3516a9930c4" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="a059c3e3-adf3-4c36-a957-7a0398c08538" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="f4e7d0ca-3222-4775-a09b-74394f75efeb">
+      <Part uuid="53df97be-79da-4a58-93cb-b5129cfe56dc" designID="3068" partType="rigid" materials="24:0">
+        <Bone uuid="6be79864-ecf0-4d31-966b-7b3bb760d83a" transformation="1,0,0,0,1,0,0,0,1,7.6,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="dd727eb3-0ef0-4d2f-b195-d9334a679453">
+      <Part uuid="5e294039-330d-4f34-8570-f5e70803bad9" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="68f6228c-7925-4fac-ab00-c7f4bf6d8882" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="023cf67f-9811-43b9-9232-2b595bd2c84f">
+      <Part uuid="e29de422-0026-4ddd-a1a8-2e1d6e611f40" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="99dac2e6-67d5-4fd2-a174-9a0598feeb46" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="e91292ad-cbe3-4ca9-b0eb-82a5d23a2f18">
+      <Part uuid="04d1d9f6-3fb6-4a7d-a564-5c39228c8ca9" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="94fe2564-62db-4f2a-9f54-605397abdee0" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="e989512b-bf39-43fc-8a9a-878d66052466">
+      <Part uuid="bca934bf-4308-44d4-9e8e-75e0a10c53dd" designID="3068" partType="rigid" materials="23:0">
+        <Bone uuid="f2fac5dc-ae98-4c40-a467-70d32213363f" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="0e1e17de-cfb0-4bde-acf7-65f8a96d222e">
+      <Part uuid="04599109-c5ab-43a0-8a9c-e3b4cdaf4cd0" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="42a31e9a-5827-4f66-89fb-f14c7af1d7f2" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="4436b95c-1de0-467d-bc24-2d8eb5867860">
+      <Part uuid="68e69d3c-9851-4c36-803e-05e45e718ed5" designID="3023" partType="rigid" materials="24:0">
+        <Bone uuid="64cb2df8-ebae-4677-90b9-cdbade11c3f9" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.4,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="31ae2689-0819-4f3f-9ae9-182949ac4c62">
+      <Part uuid="70c0334e-2892-4e83-a944-2b4f48957991" designID="3068" partType="rigid" materials="23:0">
+        <Bone uuid="7ec83a8a-5782-44c7-9ae8-91d9c4095a39" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="8863bd98-6fd1-4cef-9638-f30adbdb128e">
+      <Part uuid="b2a19cd1-4481-4d4c-97e0-dd518714ab2d" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="44aa103a-6c89-4f79-84f3-74cd18c4a075" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="450ccbb4-8fe1-4ad7-8cbe-3baddbf2b615">
+      <Part uuid="d3edce54-9774-4e45-980b-53c6808f5005" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="1eac17fe-c2d5-4df0-acda-5a877d2cd888" transformation="1,0,0,0,1,0,0,0,1,2.8,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="0e93e264-6459-4c51-99f1-acd7830e5722">
+      <Part uuid="70324b91-9c18-4c62-9e6d-e03351e7be42" designID="3023" partType="rigid" materials="268:0">
+        <Bone uuid="4836b5d7-9b61-4fa4-bd48-39a4c1a77e78" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="7b78790b-395b-4521-a8d0-814d32f2f9c7">
+      <Part uuid="4835ab94-213b-467d-8baa-1cf08a6fe081" designID="3023" partType="rigid" materials="212:0">
+        <Bone uuid="7bf3e2cb-1af7-4f40-b21e-53d2cb82cd16" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.2,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="2b7bf98c-8552-473c-976c-cbfc307f377f">
+      <Part uuid="75a29a96-203f-4c7a-8bf4-14274bb9b51b" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="4679da2b-e72d-4fd7-a31b-ad5fa8a76ac3" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="4afef193-4464-4479-97ef-e3e5dbe05d99">
+      <Part uuid="426c0476-ff1b-4816-96bc-9032af007914" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="683912b7-1c16-4bca-a49e-6ae63bb75f43" transformation="1,0,0,0,1,0,0,0,1,2,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3023" uuid="815bdaa2-f5f7-4941-ac53-e7f3fbba6c74">
+      <Part uuid="76abb8a9-e44e-49b9-8f63-1b3065a4e13e" designID="3023" partType="rigid" materials="23:0">
+        <Bone uuid="f0e80869-aac9-408a-a4aa-8fdb482eaa07" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.8,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="18d837ab-99e5-4853-b044-ffe0e1cd5450">
+      <Part uuid="e9312c2e-2cf3-4d5b-8c56-af04add8352f" designID="3068" partType="rigid" materials="24:0">
+        <Bone uuid="7a865103-20df-497d-87bb-56fe3ccd148b" transformation="1,0,0,0,1,0,0,0,1,2,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="1d1d98e0-5b8e-43b9-a151-ade470a5b667">
+      <Part uuid="6441c59b-f2f1-4696-aa9e-cb78ae59f14d" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="a6b9375b-faa3-43d5-87f3-aae0a21345b9" transformation="1,0,0,0,1,0,0,0,1,2,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="beae7aa2-4631-4cea-be74-83af0df67db5">
+      <Part uuid="04728ca8-f367-45fe-8aa9-9b9f851e0c1c" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="5064f476-3067-4b10-8ba2-7c255f19190f" transformation="1,0,0,0,1,0,0,0,1,1.2,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="ea767be0-ef5c-467e-b53d-9d929722475f">
+      <Part uuid="597918a3-e411-43f3-a27c-73a03b0ea67e" designID="3068" partType="rigid" materials="212:0">
+        <Bone uuid="36c5c146-2602-4a57-a4cd-8450994b2d7d" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="0759f84b-00a6-4b69-9b82-5cc249ab0a2a">
+      <Part uuid="0f420077-6c1d-46de-8634-f3d8cda4c1bc" designID="3068" partType="rigid" materials="221:0">
+        <Bone uuid="d4ca458a-b91c-4362-b425-e02cf7d3c15a" transformation="1,0,0,0,1,0,0,0,1,1.2,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="9d064f84-b779-4196-8c1a-8fc8d2fd56d1">
+      <Part uuid="fc1c2c71-4e2e-4015-9c8f-46349f446a86" designID="3068" partType="rigid" materials="221:0">
+        <Bone uuid="ae964dc6-493d-42a8-b8c9-e53cebb6efe4" transformation="1,0,0,0,1,0,0,0,1,2.8,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="1da8e524-c229-4053-b0f2-f46fa4e91938">
+      <Part uuid="6eea2ff6-4ae3-4885-a071-fdf2d19c1ad1" designID="3068" partType="rigid" materials="37:0">
+        <Bone uuid="51672338-2ba0-4670-9e64-ef547b556068" transformation="1,0,0,0,1,0,0,0,1,0.4,0.3200001,2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="2758a1e4-22d1-48c0-88ca-31bb91ad79fc">
+      <Part uuid="36874f69-4ea8-45bd-8606-d03a0089e8e3" designID="3068" partType="rigid" materials="212:0">
+        <Bone uuid="04266627-ed32-40c4-829f-8fbb28eab788" transformation="1,0,0,0,1,0,0,0,1,2.8,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="0f12005f-4c23-4fb3-a526-18e6187435a2">
+      <Part uuid="ced69cd0-f641-4780-a050-cadffa4be3a3" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="fa240832-094f-4a98-9012-4d5d8928eee5" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="c432b4d6-e546-4afd-a874-4cb14b47b7c6">
+      <Part uuid="1768a3af-eba3-40d2-8a78-b1bda4895d71" designID="3068" partType="rigid" materials="24:0">
+        <Bone uuid="c9ed4424-e2b0-41c8-b010-514129dd7628" transformation="1,0,0,0,1,0,0,0,1,0.4,0.3200001,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="5302122c-3061-4c01-9038-b6012e750767">
+      <Part uuid="42fd05d8-9b2f-443d-b054-a2e6f3e26160" designID="3068" partType="rigid" materials="212:0">
+        <Bone uuid="784793c0-e904-4173-9a36-113314c195f0" transformation="1,0,0,0,1,0,0,0,1,6,0.3200001,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="986dfbb2-11c3-4204-aeb5-0b0892f21fa6">
+      <Part uuid="3eb18c50-e715-49a5-95fc-891457f27ff3" designID="3068" partType="rigid" materials="23:0">
+        <Bone uuid="45ac11ca-b032-4941-83cd-35f7fbd6f098" transformation="1,0,0,0,1,0,0,0,1,0.4,0.3200001,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="5e22adb1-f387-4b60-93b9-21f3aaa6c070">
+      <Part uuid="385ff2f5-9a4b-4fe6-895d-d658e540a952" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="b4e1cd5e-84b6-4b53-84e0-9cd7451b9d9e" transformation="1,0,0,0,1,0,0,0,1,3.6,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="6a8a7419-9ec8-45b7-ad8c-650b04748ccd">
+      <Part uuid="ea91ebb3-bb85-4a48-92e4-6bc8fc60a7d0" designID="3068" partType="rigid" materials="1:0">
+        <Bone uuid="c973cd4b-07f4-440a-9c63-001817cfb49e" transformation="1,0,0,0,1,0,0,0,1,2.8,0.3200001,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="61ed7e1b-5bae-4352-8c8c-ac0a3f42786a">
+      <Part uuid="b6d27b15-8c31-4b8a-a225-157e43a30774" designID="3068" partType="rigid" materials="268:0">
+        <Bone uuid="32073160-3eca-4386-ab8b-4525f7a37793" transformation="1,0,0,0,1,0,0,0,1,0.4,0.3200001,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="302841fb-2697-4126-b535-c601dd2c2566">
+      <Part uuid="1cac3810-4f8b-4ef5-9449-cc2b2f429d2c" designID="3068" partType="rigid" materials="221:0">
+        <Bone uuid="7ea66d56-b053-4352-938a-38a42529de80" transformation="1,0,0,0,1,0,0,0,1,4.4,0.3200001,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="3068" uuid="f660aec5-7d86-40d2-b6d3-39c23cf65d9e">
+      <Part uuid="43953c7f-ab20-42b7-b6db-f31cb938a9e8" designID="3068" partType="rigid" materials="106:0">
+        <Bone uuid="e4af8ac2-0c85-42f5-8acf-6a5668119b86" transformation="1,0,0,0,1,0,0,0,1,0.4,0.3200001,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="57fee5fa-ac52-41da-9a50-cc70159fc344">
+      <Part uuid="2faddf11-31c1-487c-b18e-b54601deb9ad" designID="92903" partType="rigid" materials="23:0">
+        <Bone uuid="844c6f04-c3cd-4653-9ad2-51506337f12d" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,0.4" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="4aeec3a5-f36b-4de8-949e-f914db312a43">
+      <Part uuid="c18ee450-6049-4619-ac1d-c3ad0fc8f25e" designID="92903" partType="rigid" materials="221:0">
+        <Bone uuid="c216bba9-63c0-43fd-94b1-568bc5864e80" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="4ff20c1b-f553-4a28-a9f7-793c8b7b7a61">
+      <Part uuid="da1050e0-cdfa-44ce-9a12-f650d934c0fd" designID="92903" partType="rigid" materials="24:0">
+        <Bone uuid="9990ee34-f121-4f18-b3e6-6a122fe5535d" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="c0b112c1-ece7-403c-b1c9-772022f62c10">
+      <Part uuid="ce8a7cb4-1ad8-4ad8-b818-83173b74acf1" designID="92903" partType="rigid" materials="21:0">
+        <Bone uuid="31e81804-309f-41f4-9fc0-0d81c8bfd08a" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="cfad0876-ebe8-420d-bc1b-97e6909550ce">
+      <Part uuid="f4fc641a-68a6-44c6-939a-ec17352093b0" designID="92903" partType="rigid" materials="268:0">
+        <Bone uuid="698f733e-1a74-4083-a3dd-e41eb597fe00" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="40279846-7f4c-481f-9edf-559e4454f8f8">
+      <Part uuid="10a706d0-0460-4641-b801-de5c36772148" designID="92903" partType="rigid" materials="106:0">
+        <Bone uuid="df37888f-56bf-4489-9d9c-6557ac959d5d" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="b0f438ad-d45e-4c50-90d3-431113ff5681">
+      <Part uuid="b420b183-bf15-493f-9a0f-32337d6b804b" designID="92903" partType="rigid" materials="268:0">
+        <Bone uuid="b45995a2-9370-4c3b-b543-af2249044921" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="e9198fb2-cff0-43a2-b7ee-0ba8f72976ab">
+      <Part uuid="b83e89ab-6f91-46c4-9a3a-8aaf1bfa0b41" designID="92903" partType="rigid" materials="221:0">
+        <Bone uuid="e6383b1b-78ca-413b-af5a-ea053bd7f801" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-6" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="ccd6af6e-abda-4f8f-ba2a-8740697a1ec6">
+      <Part uuid="c6f4cb0e-f326-4948-b1bd-3d63fd94fc27" designID="92903" partType="rigid" materials="192:0">
+        <Bone uuid="772fa2e4-6096-4270-8783-a63ee3a760f0" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,8.4" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="f9c01843-4105-4bbf-9ceb-a868aa4a19b2">
+      <Part uuid="60a9c43e-0f04-43be-9ac5-3c5ba7399efd" designID="92903" partType="rigid" materials="212:0">
+        <Bone uuid="c49983aa-d0df-4fd5-9414-66e185b92e40" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="359d90cf-1d78-4a6f-93d6-c83cc4982f4c">
+      <Part uuid="eaefe6ff-8fac-475e-a60c-950a3bd635d4" designID="92903" partType="rigid" materials="192:0">
+        <Bone uuid="7e22c988-a7db-40b4-a6c2-9358dcd25653" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,7.6" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="8ab65123-c369-4e33-b3bb-9c4c128d4d01">
+      <Part uuid="505594dc-41bc-4a8f-b744-3d5e3506c002" designID="92903" partType="rigid" materials="106:0">
+        <Bone uuid="2de27214-7d1b-432d-85bd-dda410ac2168" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="bafc5f74-4b22-44c3-8300-afbe14790fd6">
+      <Part uuid="1530657a-8000-4369-a3ad-dfbba9bac3f0" designID="92903" partType="rigid" materials="212:0">
+        <Bone uuid="533f87f3-51b3-4668-a24d-1ce2e176c1e8" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="ce1188d4-395d-491c-8cfb-ace36b1190b0">
+      <Part uuid="32033d55-ad93-484a-91d4-9a1892976135" designID="92903" partType="rigid" materials="37:0">
+        <Bone uuid="cb856df7-7cad-4cb6-8e7f-30e4dc87d16c" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="9a538791-6973-4146-b965-926f98361079">
+      <Part uuid="8d511abe-b067-4dec-be8e-f26d9aed371b" designID="92903" partType="rigid" materials="23:0">
+        <Bone uuid="f4104e90-c8e7-4b3a-a4c1-9f1ebaccde70" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-0.3999999" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="8b0bf249-9e4a-4705-bc0e-851cc15f84df">
+      <Part uuid="8dc4625e-5d4b-415a-a9c9-cdc519923896" designID="92903" partType="rigid" materials="1:0">
+        <Bone uuid="b5018dd2-a91f-477c-a7ab-7934ff618dd5" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="dae10de1-e002-473d-b1c5-3b6f08f432cc">
+      <Part uuid="12ff04a1-4ab6-4f61-ab35-d139933a63e2" designID="92903" partType="rigid" materials="24:0">
+        <Bone uuid="1988205c-df0a-4586-b944-fcff204d505a" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="5faa07c4-130a-440c-8d8f-615c68a8f230">
+      <Part uuid="ac457fbc-c489-461a-a6dd-802dbd138550" designID="92903" partType="rigid" materials="26:0">
+        <Bone uuid="2ca35d3c-f166-4344-a7c5-d13ef90c2559" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,10" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="ddcc855d-d3aa-43a8-a8b2-84ea8a8946bc">
+      <Part uuid="4f3a517f-48d0-4cbc-a50d-eaaad28d2d59" designID="92903" partType="rigid" materials="26:0">
+        <Bone uuid="a33f40f6-f59e-4d4d-a065-aadb5d7a7ac6" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="0178c89c-d07e-4a92-b9ce-e3405a6bd386">
+      <Part uuid="b6fb98a5-428a-4c74-bf8f-3925421892c7" designID="92903" partType="rigid" materials="1:0">
+        <Bone uuid="b20c3bbd-853d-4eda-b8e7-b5cf3ad2c765" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,-4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="269ca233-eccb-4db6-9db4-c947d1e2153b">
+      <Part uuid="27990fc0-7902-4954-90ba-fdc44ebc58d4" designID="92903" partType="rigid" materials="37:0">
+        <Bone uuid="3ab042db-94ca-424d-a651-2e9a327722f3" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,2" />
+      </Part>
+    </Brick>
+    <Brick designID="92903" uuid="dd16d3e3-f686-4ed5-aa2a-1a28838c8954">
+      <Part uuid="d1ea2184-2e69-4c68-9d34-bb0dae61c28d" designID="92903" partType="rigid" materials="21:0">
+        <Bone uuid="72475e66-1d9a-40f4-a819-c3f56303242a" transformation="-1,0,0.00000008742278,0,1,0,-0.00000008742278,0,-1,-2,8,6" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="e2be52e9-957c-4470-a26a-ee0e215d6ad5">
+      <Part uuid="5f156fb1-8e4c-41ee-a569-2d55c83347c8" designID="3069" partType="rigid" materials="21:0">
+        <Bone uuid="f4fb4912-eaa3-48b3-af27-f980c2307468" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.8,0.32,6.800223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="76d4b62a-0e92-47d6-b7ad-31ebd007f964">
+      <Part uuid="91c87706-d0ad-4f8f-a674-23137abd44a3" designID="3069" partType="rigid" materials="26:0">
+        <Bone uuid="57ec0652-e308-4430-8a30-b4cc371e4432" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,8.4,0.32,10.00022" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="b15878da-68e4-4deb-8a16-47134fc5178d">
+      <Part uuid="4ca86eeb-823f-4d38-a29c-0c5463e4cab4" designID="3069" partType="rigid" materials="21:0">
+        <Bone uuid="f1aecf8e-750f-469a-a73c-320d06b3e234" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.2,0.32,6.800223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="3db02f98-03b0-4527-988b-82a008ef897b">
+      <Part uuid="8ffd77f9-5e01-47c0-b272-d4afa3d393a6" designID="3069" partType="rigid" materials="26:0">
+        <Bone uuid="8a4fd532-905a-4add-a0ce-d8d739d9269d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.8,0.32,10.00022" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="5e552ece-b5b7-418c-9f69-45a56fd7e179">
+      <Part uuid="8ed0d3a5-7c82-42fe-8f41-d4d1bf6348fc" designID="3069" partType="rigid" materials="24:0">
+        <Bone uuid="b318be76-f054-4535-8606-c46455e21be8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.2,0.3200001,3.600223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="9cfd9997-0aa5-494e-9086-3cef804d228d">
+      <Part uuid="23143320-21cc-4637-bbaf-01ea93ea599f" designID="3069" partType="rigid" materials="221:0">
+        <Bone uuid="53e6581d-7372-4876-8628-1cedec97897f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-1.2,0.3200001,-5.999776" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="e74b740d-de1b-4e46-8a78-6c3def87d29a">
+      <Part uuid="211886a6-fde3-481c-a34c-42e8cf5d33fb" designID="3069" partType="rigid" materials="23:0">
+        <Bone uuid="4cb7881f-75d5-4537-9d8d-1d92c4b47a79" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.6,0.3200001,0.4002233" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="71bb89ed-edf1-4581-8e79-35f4cb062311">
+      <Part uuid="2e597ced-8380-4a19-8fe8-666d93dba6f5" designID="3069" partType="rigid" materials="212:0">
+        <Bone uuid="13b7de0d-a20b-49a5-8e05-bcc744ee0c2a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.4,0.3200001,-2.799777" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="2882c7b2-f318-45dd-812f-a53f1d6a950c">
+      <Part uuid="0feb1a5e-9012-4f59-a9c0-d8aba4eec0d2" designID="3069" partType="rigid" materials="24:0">
+        <Bone uuid="4b2c99e2-d2a1-478e-9101-0ec3724eb034" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.6,0.3200001,3.600223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="3755beaf-8c7a-4a55-ad2e-7f8923655c38">
+      <Part uuid="c8e520dc-75e1-4ef7-b4bd-c7be7a2c6286" designID="3069" partType="rigid" materials="221:0">
+        <Bone uuid="108e2f91-e8a3-4e0f-b843-6dc8737f4cb2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.4,0.3200001,-5.999776" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="35a55140-4502-44ee-90c1-73ae432d9b65">
+      <Part uuid="5cfc903f-9cb5-4270-a224-57ed735d51de" designID="3069" partType="rigid" materials="212:0">
+        <Bone uuid="7d4b6b8e-5bd8-454c-8fe0-3e893606b653" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2,0.3200001,-2.799777" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="54b2ee36-ce73-4256-aecd-615202e88130">
+      <Part uuid="3181a709-a993-4ebe-91a1-2ee27a85ab78" designID="3069" partType="rigid" materials="23:0">
+        <Bone uuid="ec15ca3b-2ee6-4bfb-af8a-689e309bd505" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2,0.3200001,0.4002233" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="4a9aa7a0-204c-467e-a8f3-52c600d5d333">
+      <Part uuid="b723a457-784a-4055-af24-0e9321b1fae1" designID="3069" partType="rigid" materials="23:0">
+        <Bone uuid="dbbdc362-41df-479b-93d9-1de07db4cd7e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,0.4002233" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="2cc87e30-1503-4438-a6f3-2dc3c9f33acd">
+      <Part uuid="998dd95d-28d6-4769-835b-cbf2c6cc7294" designID="3069" partType="rigid" materials="221:0">
+        <Bone uuid="6bc8f23a-5688-4a1f-87c8-780cc28be707" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,-5.999776" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="d7297fbc-082e-4c67-97ac-0df0ef591570">
+      <Part uuid="37fb256c-2c4c-4822-8239-c3656ee81aeb" designID="3069" partType="rigid" materials="24:0">
+        <Bone uuid="3ade38bc-3623-45a0-b33e-61546c866162" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,3.600223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="87ef8ff5-5239-4d19-8a94-167dd88b45d7">
+      <Part uuid="7e79d523-8dcf-40a5-9bca-c4d04ec83719" designID="3069" partType="rigid" materials="21:0">
+        <Bone uuid="871432be-0812-4769-8946-2a2508977dad" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,6.800223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="db3777b0-2f65-4faa-adfd-5c0c983b3374">
+      <Part uuid="97150a75-b536-4a0a-ba43-d5b93da1c6e0" designID="3069" partType="rigid" materials="268:0">
+        <Bone uuid="fb1a44d9-02bb-4282-84c2-704b73be1148" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,-1.199777" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="a3ff8da5-005f-4424-91e1-c7ae0f19a27d">
+      <Part uuid="8c642780-e57f-4bca-846e-2f15ae1e9fb3" designID="3069" partType="rigid" materials="106:0">
+        <Bone uuid="34cfbd8b-9a33-4a68-b8ca-25a4ed21baaf" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,5.200223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="b2078c33-791d-4670-8d1a-46db7a5e95bc">
+      <Part uuid="e7dcb79b-a73d-4d93-8f12-fd263b35ffc7" designID="3069" partType="rigid" materials="192:0">
+        <Bone uuid="eb6dc3e9-c22c-4f61-8607-05e243001984" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,8.400224" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="de5a1b17-bc78-4c22-b1db-7290ace5e75f">
+      <Part uuid="ea05363b-2f6f-412f-bb90-4031ece78f41" designID="3069" partType="rigid" materials="212:0">
+        <Bone uuid="3d29600d-897e-438a-82f5-2dc555306cab" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,-2.799777" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="3e317d2c-6b25-4ad8-aa09-853c332f7a95">
+      <Part uuid="8feb0181-2356-470c-978c-fbd9a50ab97b" designID="3069" partType="rigid" materials="37:0">
+        <Bone uuid="cd4dbdc5-6b8e-4df3-a9aa-f1b3905a0cdf" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,2.000223" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="f89ad2b0-5043-4f5d-9683-1e1c43ad4dcc">
+      <Part uuid="27d478d1-bd37-4c28-b729-a2648f154951" designID="3069" partType="rigid" materials="1:0">
+        <Bone uuid="286fa43f-5446-443a-baac-3fd50d0b618d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,-4.399777" />
+      </Part>
+    </Brick>
+    <Brick designID="3069" uuid="2d8710d4-15be-440b-aabe-c8de5e86d486">
+      <Part uuid="ecb22145-bc03-4a9b-b0a1-3ec8adbef101" designID="3069" partType="rigid" materials="26:0">
+        <Bone uuid="5bd04048-da0e-48c9-a7c9-2dab1d19c69d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-3.6,9.6,10.00022" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="398360b3-a1df-49b1-9865-c6c541c0e16e">
+      <Part uuid="70b0abb0-ac0a-45a4-b60f-1beac233e310" designID="3814" partType="rigid" materials="24:0">
+        <Bone uuid="512ef56e-f591-4867-9e7b-920f23dca664" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,2.24,3.6" />
+      </Part>
+      <Part uuid="ee144bb8-018d-42ef-9338-b5e436eac209" designID="3818" partType="rigid" materials="24:0">
+        <Bone uuid="3f5e9c02-570f-4239-9934-77072e6b349c" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,4.351362,3.15,3.82" />
+      </Part>
+      <Part uuid="874cba5b-b570-4aeb-9495-b3fd2959cbf9" designID="3819" partType="rigid" materials="24:0">
+        <Bone uuid="4a1b3e18-4f27-4401-a40b-6d1319c6be17" transformation="-0.0000004768372,0.1822354,-0.983255,0.9238798,0.3762749,0.06973794,0.3826829,-0.9084094,-0.1683638,4.351362,3.15,2.58" />
+      </Part>
+      <Part uuid="690baec6-79e4-4ccc-bcda-b852ab8aa9f1" designID="3820" partType="rigid" materials="24:0">
+        <Bone uuid="e942235e-1921-4bfa-9bf6-ebc187537789" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,4.311505,2.457221,4.152173" />
+      </Part>
+      <Part uuid="39edf052-641e-41bb-b60f-4fcd6caa2839" designID="3820" partType="rigid" materials="24:0">
+        <Bone uuid="744305fe-5c18-4777-a198-397459ae2d89" transformation="-0.0000004768372,0.1822354,-0.983255,0.9238798,0.3762749,0.06973794,0.3826829,-0.9084094,-0.1683638,4.312415,2.457623,2.247725" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="110ba5ed-a3d5-4714-9a15-2d5c2632745a">
+      <Part uuid="9c2f71ad-3f8f-440c-9e47-bac4e1b68535" designID="3626" partType="rigid" materials="24:0">
+        <Bone uuid="abfdd1c7-52c6-4c1f-9a2c-a94a53685b9e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,3.52,3.2" />
+      </Part>
+    </Brick>
+    <Brick designID="55532" uuid="84e1f15f-22ba-4eff-a6ec-f84c149e4b8d">
+      <Part uuid="6078fc35-8966-49e0-a377-8d9a7ad59803" designID="55532" partType="rigid" materials="24:0">
+        <Bone uuid="4576b6d0-389f-4c1f-8f73-43751f3d4c92" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,4.48,3.2" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="db6d7d43-5b07-460c-8339-45da0cb4da4f">
+      <Part uuid="0f330f66-cf4a-402c-8383-8bde4bc09ff9" designID="3815" partType="rigid" materials="24:0">
+        <Bone uuid="f9aa944b-aa23-4483-8fdb-fbeb3a189701" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,2.24,3.6" />
+      </Part>
+      <Part uuid="b45d7726-5cec-4204-9469-8670a2e7c2a1" designID="3816" partType="rigid" materials="24:0">
+        <Bone uuid="88a5b487-31f7-433e-b908-898777ade743" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,0.64,3.6" />
+      </Part>
+      <Part uuid="b7f9f99a-f29d-44b6-ba18-c15708266815" designID="3817" partType="rigid" materials="24:0">
+        <Bone uuid="8cc30035-2258-49a5-bbc4-2adc428cea03" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,4.351362,0.64,2.8" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="a4bc218f-3c79-48a5-9421-77e3c0c462c2">
+      <Part uuid="fdc20635-edf6-4cd9-9679-dab042fae1de" designID="3814" partType="rigid" materials="21:0">
+        <Bone uuid="929ab0b3-470b-4029-a298-0d8f2af15b7b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,2.24,6.8" />
+      </Part>
+      <Part uuid="370557e7-55ff-4e00-b63e-f16e9ec13988" designID="3818" partType="rigid" materials="21:0">
+        <Bone uuid="b75df90a-bb6f-4510-926d-e147d9a957cb" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,5.950538,3.15,7.02" />
+      </Part>
+      <Part uuid="204941b2-2875-4785-a073-ef8be551e8ed" designID="3819" partType="rigid" materials="21:0">
+        <Bone uuid="2724a5b9-52ad-4b96-a89a-7bcb892561f6" transformation="-0.0000004768372,0.1822354,-0.983255,0.9238798,0.3762749,0.06973794,0.3826829,-0.9084094,-0.1683638,5.950538,3.15,5.78" />
+      </Part>
+      <Part uuid="1f6e2778-1caa-491a-8dd6-5817a9b6498c" designID="3820" partType="rigid" materials="21:0">
+        <Bone uuid="e04dd4e4-3a5b-4ff0-ba14-8e1a7d03ccc3" transformation="-0.0000004768372,0.1822354,-0.983255,0.9238798,0.3762749,0.06973794,0.3826829,-0.9084094,-0.1683638,5.911591,2.457623,5.447725" />
+      </Part>
+      <Part uuid="845609be-d3c6-4472-94cc-2b1162fcd637" designID="3820" partType="rigid" materials="21:0">
+        <Bone uuid="a0650b36-c45d-40e8-9d60-c407bcb6b66e" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,5.91068,2.457221,7.352172" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="f722cb66-a7b1-4043-b187-28ce797eca34">
+      <Part uuid="76a0afcb-8241-43fd-8b7b-22c7db14fddd" designID="3626" partType="rigid" materials="21:0">
+        <Bone uuid="9cf0b5ce-d325-4e13-8062-5b05e2a28545" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,3.52,6.4" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="107dee1f-e198-4ce4-8e83-1844a4c6b846">
+      <Part uuid="d3dcb90f-1498-4965-b6c1-c97ff0c6c37c" designID="3815" partType="rigid" materials="221:0">
+        <Bone uuid="d3c77b54-efdf-4bf6-9305-21abe5d7c26e" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,2.24,-6" />
+      </Part>
+      <Part uuid="b99734ec-e8c8-45bd-8447-500e6bf86ef2" designID="3816" partType="rigid" materials="221:0">
+        <Bone uuid="4da47d05-c3cc-4297-bb31-5f0a8080258b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,0.64,-6" />
+      </Part>
+      <Part uuid="6229cbe5-d528-4028-9059-40c4af7a768b" designID="3817" partType="rigid" materials="221:0">
+        <Bone uuid="573df074-7c16-4a52-bed7-80656feccf3b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,0.64,-6.8" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="fe9d200f-906a-4f8a-8104-4bb6949e2e43">
+      <Part uuid="9ff52e44-8dc9-4425-ac26-c9e81c97efce" designID="3815" partType="rigid" materials="21:0">
+        <Bone uuid="4600bdb7-90eb-4d71-b7bd-013698541f33" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,2.24,6.8" />
+      </Part>
+      <Part uuid="8e89a159-5f01-4852-80fb-50f3c0b52a5a" designID="3816" partType="rigid" materials="21:0">
+        <Bone uuid="f5dd262a-2747-49c5-8868-4871d83104e3" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,0.64,6.8" />
+      </Part>
+      <Part uuid="de645d2f-4206-4dde-abe8-0d62c913a89f" designID="3817" partType="rigid" materials="21:0">
+        <Bone uuid="bdfc4c19-8f1a-4f5e-8bcb-27f9e898bb55" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,0.64,6" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="ca25d133-3c00-43bf-8edc-acd70ac282e7">
+      <Part uuid="6f26a374-d275-4a22-baa1-c4197ee73a31" designID="3626" partType="rigid" materials="23:0">
+        <Bone uuid="5b4eaefe-cb35-4120-8b36-3522be65f076" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,3.52,0.00000001" />
+      </Part>
+    </Brick>
+    <Brick designID="76925" uuid="66b3ae20-85f6-4ae8-913e-5088743e4e30">
+      <Part uuid="1f66cc26-410d-434b-82fd-e91b22fcf8b9" designID="76925" partType="rigid" materials="23:0">
+        <Bone uuid="66fc04ac-09a5-42c1-855a-350438ced1dc" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,4.48,0.00000001" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="99a60a5a-1073-4bc1-a99f-b67158ba5dfa">
+      <Part uuid="375a0ee6-5e19-4863-9f9b-0cd06482cdf7" designID="3814" partType="rigid" materials="23:0">
+        <Bone uuid="3e5be092-95b4-4bdc-9748-d1ac8b9ef1bb" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,2.24,0.4" />
+      </Part>
+      <Part uuid="b92e74b6-d06e-4fd2-8a05-d113d6a0e315" designID="3818" partType="rigid" materials="23:0">
+        <Bone uuid="8e45c2a2-5773-4862-8200-7ccf42ca9608" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,2.750538,3.15,0.62" />
+      </Part>
+      <Part uuid="41add004-8fe3-4e37-805d-18853dc74fe8" designID="3819" partType="rigid" materials="23:0">
+        <Bone uuid="4b137efc-42e5-4637-9c94-a5cc1a603bd8" transformation="-0.0000003576279,0.1822355,-0.983255,0.9238796,0.3762754,0.06973827,0.3826835,-0.9084091,-0.1683638,2.750538,3.15,-0.62" />
+      </Part>
+      <Part uuid="71ebffb9-32d2-4a88-b063-7bf5d0ffd81a" designID="3820" partType="rigid" materials="23:0">
+        <Bone uuid="2a992c9e-b475-42c8-b63f-03c4c3096edc" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,2.710681,2.457221,0.9521725" />
+      </Part>
+      <Part uuid="50172f9e-15e5-4537-88ed-912f7f9fd48a" designID="3820" partType="rigid" materials="23:0">
+        <Bone uuid="8217c8d0-502f-42e6-98fe-0dbbd24a73ce" transformation="-0.0000003576279,0.1822355,-0.983255,0.9238796,0.3762754,0.06973827,0.3826835,-0.9084091,-0.1683638,2.711591,2.457623,-0.9522745" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="88c007c5-c7bd-4ca0-ab20-6e37de0872dd">
+      <Part uuid="f0dbc1f3-4a2a-4228-93d6-4026bd6c5a5b" designID="3815" partType="rigid" materials="23:0">
+        <Bone uuid="e1e7628e-25fb-4bc6-be3d-32759cb9e5da" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,2.24,0.4" />
+      </Part>
+      <Part uuid="d5be97d4-1a96-41e6-a281-9f6c60e6a77f" designID="3816" partType="rigid" materials="23:0">
+        <Bone uuid="0932a10e-e7e2-4dd8-9c8f-477353accde9" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,0.64,0.4" />
+      </Part>
+      <Part uuid="cb34f889-5d8c-49cf-8bc8-82ee459cfd28" designID="3817" partType="rigid" materials="23:0">
+        <Bone uuid="dd9d56a8-53db-4082-afc9-6a346eec4f79" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,2.750538,0.64,-0.3999999" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="4ebc4449-280b-4ea2-b5b5-7fe6ded7be0d">
+      <Part uuid="84b45118-6dcf-4caf-bb82-8df03851ccdb" designID="3814" partType="rigid" materials="37:0">
+        <Bone uuid="53f8bafd-8462-4db3-94f0-db7ca54ce456" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,2.24,2" />
+      </Part>
+      <Part uuid="1116e48b-b32f-48a9-b81a-c71f34073772" designID="3818" partType="rigid" materials="37:0">
+        <Bone uuid="6956fdcd-2d98-472b-8c3e-19364e923cfe" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,3.551362,3.15,2.22" />
+      </Part>
+      <Part uuid="120bbe5b-7452-45c6-aa02-aa3807b15203" designID="3819" partType="rigid" materials="37:0">
+        <Bone uuid="7041c23b-8247-4aee-ba30-770a94288417" transformation="-0.0000003576279,0.1822355,-0.983255,0.9238796,0.3762754,0.06973827,0.3826835,-0.9084091,-0.1683638,3.551362,3.15,0.98" />
+      </Part>
+      <Part uuid="1f6ac51b-cc3c-4e6c-a022-34e7619b85a0" designID="3820" partType="rigid" materials="37:0">
+        <Bone uuid="703a191e-fb31-4666-a13b-84a5e74ff45f" transformation="-0.0000003576279,0.1822355,-0.983255,0.9238796,0.3762754,0.06973827,0.3826835,-0.9084091,-0.1683638,3.512415,2.457623,0.6477255" />
+      </Part>
+      <Part uuid="5f312cba-80ef-47d8-83a7-1b4974aaaf7a" designID="3820" partType="rigid" materials="37:0">
+        <Bone uuid="fdf9d2c9-c3e2-4baa-803b-b4468ea7be6e" transformation="-0.0000002384186,-0.1822354,-0.983255,0.9238798,0.3762749,-0.06973854,0.3826832,-0.9084094,0.1683635,3.511505,2.457221,2.552172" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="11144222-cfdf-4379-8395-d864de06ac6d">
+      <Part uuid="162a2098-a634-479c-ae12-c0e57260ea9a" designID="3626" partType="rigid" materials="37:0">
+        <Bone uuid="3c4f76b2-2a5c-44bd-808c-af6b1b22c0c4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,3.52,1.6" />
+      </Part>
+    </Brick>
+    <Brick designID="85974" uuid="211a72f5-6e02-4075-bc2b-23dcbf04fa73">
+      <Part uuid="949efb3a-7f8e-4e31-a5de-277f6e4be791" designID="85974" partType="rigid" materials="37:0">
+        <Bone uuid="0968cb40-3dba-44e8-9c64-8280d0ba6bdb" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,4.48,1.6" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="6a0ec217-1332-46cd-b8d8-4e61d2b29e4a">
+      <Part uuid="bb9ab6d9-67bc-48fc-8211-076028b47e8d" designID="3815" partType="rigid" materials="37:0">
+        <Bone uuid="c645c189-6f93-4aea-bcc5-32452cf8af4f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,2.24,2" />
+      </Part>
+      <Part uuid="5e3322de-91d2-4f2c-bd28-534246ae3006" designID="3816" partType="rigid" materials="37:0">
+        <Bone uuid="9bab3aca-3403-4616-aaa1-52f706dfe584" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,0.64,2" />
+      </Part>
+      <Part uuid="779d7109-40de-45a8-a6e0-a48747e8c1a0" designID="3817" partType="rigid" materials="37:0">
+        <Bone uuid="36928f75-02c0-408b-a37c-91bb74d526a6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,3.551362,0.64,1.2" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="aed6aac0-8549-4ae5-8d08-4bcb33236363">
+      <Part uuid="9ad8e2b5-0ab7-4dcb-82ff-0d20f286d0f1" designID="3814" partType="rigid" materials="212:0">
+        <Bone uuid="4303af26-2e0f-40fc-91dd-2bcd93046e70" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.151362,2.24,-2.8" />
+      </Part>
+      <Part uuid="72273f16-5b8c-4e0d-8195-b5a2c3b61dd9" designID="3818" partType="rigid" materials="212:0">
+        <Bone uuid="75ea9b6e-26ca-4691-9a98-4a0ef16c5304" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,1.151362,3.15,-2.58" />
+      </Part>
+      <Part uuid="46375710-5571-4e84-a446-fe0d92ff474e" designID="3819" partType="rigid" materials="212:0">
+        <Bone uuid="aa37fa70-e8d5-43d0-8278-a9f9adcc570a" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,1.151362,3.15,-3.82" />
+      </Part>
+      <Part uuid="edbfd6a7-9ed9-4bbd-939a-a2998e17559f" designID="3820" partType="rigid" materials="212:0">
+        <Bone uuid="76a15224-9769-4a6f-bb97-c9b3b2e7c27e" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,1.111505,2.457221,-2.247827" />
+      </Part>
+      <Part uuid="c949eb68-52f5-48ea-8e4b-819337c585b6" designID="3820" partType="rigid" materials="212:0">
+        <Bone uuid="4cbc07d8-91c6-41be-95f4-b783375bf2e2" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,1.112415,2.457623,-4.152275" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="23e19a96-5de9-42c8-8a50-e05522df81e5">
+      <Part uuid="9d9c79b7-9e7d-43c2-83e0-4981ad78ea78" designID="3626" partType="rigid" materials="212:0">
+        <Bone uuid="609bb4ee-7fc4-44af-b3c7-f3319d423201" transformation="1,0,0,0,1,0,0,0,1,1.151362,3.52,-3.2" />
+      </Part>
+    </Brick>
+    <Brick designID="99930" uuid="083191cf-9f60-46de-9c84-699fb752d27a">
+      <Part uuid="c13c201c-21cb-4eae-8e2b-1bb6bd229c71" designID="99930" partType="rigid" materials="212:0">
+        <Bone uuid="2160a5b0-2ff3-4aa3-8ea1-f377de075c4b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.151362,4.48,-3.2" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="76fcb1e8-71e4-48d4-bd43-31d5f18efed8">
+      <Part uuid="3b3958fb-1efa-4107-ac1c-16cfbb8530b8" designID="3815" partType="rigid" materials="212:0">
+        <Bone uuid="0d9a2bba-0ee6-4ccf-b809-cc2fa83dea62" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.151362,2.24,-2.8" />
+      </Part>
+      <Part uuid="9ecf44d7-e442-450e-aa9a-a813d7f29086" designID="3816" partType="rigid" materials="212:0">
+        <Bone uuid="d6630dbd-5cd1-427d-839f-3e7e3ae2f2ae" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.151362,0.64,-2.8" />
+      </Part>
+      <Part uuid="4af38443-bba0-4838-8a08-b56f05fc2c83" designID="3817" partType="rigid" materials="212:0">
+        <Bone uuid="10c18514-67c5-4145-8491-005fa631fac3" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.151362,0.64,-3.6" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="a5efc867-ec98-4ca7-944b-be3a1047d7dc">
+      <Part uuid="40e03a5d-0443-4b23-ac3c-73fba4085063" designID="3626" partType="rigid" materials="192:0">
+        <Bone uuid="2274c16d-ebd9-4521-a730-d23784ebad33" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,3.52,8" />
+      </Part>
+    </Brick>
+    <Brick designID="21778" uuid="c2b9d846-d8f5-4630-8fc6-743978cd558f">
+      <Part uuid="1d3c4319-f28c-47e5-9133-7aa745059c24" designID="21778" partType="rigid" materials="192:0">
+        <Bone uuid="2755f314-2060-4646-b8ad-47784830ff10" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,4.48,8" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="1acf0e97-6b6f-4c09-aca2-b4237dd17fe8">
+      <Part uuid="3f160659-6b81-40cd-82ad-5f38760f6f0c" designID="3815" partType="rigid" materials="192:0">
+        <Bone uuid="2ced64e3-5b8f-445a-9dff-8ec5fb3a51d2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,2.24,8.4" />
+      </Part>
+      <Part uuid="55ac7152-c7e7-419d-b440-fcc918eb924d" designID="3816" partType="rigid" materials="192:0">
+        <Bone uuid="4c12be7b-9d15-47a2-935b-de57ee1f24b6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,0.64,8.4" />
+      </Part>
+      <Part uuid="3d067225-79d6-4eb3-8b2e-c4ba59dc0725" designID="3817" partType="rigid" materials="192:0">
+        <Bone uuid="c6aa11fb-68a2-48c8-9add-d5e97461a118" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,0.64,7.6" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="3e2388c2-1520-47c8-8e5c-2e47191e14fa">
+      <Part uuid="a36c74a0-e24c-409c-b06a-b66e65142e6c" designID="3814" partType="rigid" materials="192:0">
+        <Bone uuid="0074dc2a-3e15-466b-82aa-6c7018df54e3" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,6.751362,2.24,8.4" />
+      </Part>
+      <Part uuid="5c6b8c1d-3c06-4cfc-a1b8-6dd39a50e383" designID="3818" partType="rigid" materials="192:0">
+        <Bone uuid="e59c995f-d023-4972-bc39-5c89a2bce1b3" transformation="0,-0.1736484,-0.9848077,0.9238796,0.3768696,-0.06645229,0.3826835,-0.9098437,0.1604301,6.751362,3.140002,8.629999" />
+      </Part>
+      <Part uuid="5498b5a9-a92f-4129-9913-2947090a01da" designID="3819" partType="rigid" materials="192:0">
+        <Bone uuid="eb5c39ff-9800-400d-bdd8-3364ba2e950f" transformation="-0.0000001192093,0.1736484,-0.9848078,0.9238797,0.3768692,0.06645221,0.3826831,-0.9098439,-0.1604303,6.751362,3.140081,7.370014" />
+      </Part>
+      <Part uuid="e776872c-dd0e-46af-a1bc-1a88693d84ec" designID="3820" partType="rigid" materials="192:0">
+        <Bone uuid="243cff41-4f12-44f9-9294-50506a6736d2" transformation="-0.0000001192093,0.1736484,-0.9848078,0.9238797,0.3768692,0.06645221,0.3826831,-0.9098439,-0.1604303,6.712125,2.444602,7.044297" />
+      </Part>
+      <Part uuid="de565922-ab17-47ae-a443-d56cf08507f1" designID="3820" partType="rigid" materials="192:0">
+        <Bone uuid="b278951e-32d6-4911-ad51-b5225f7e80fa" transformation="0,-0.1736484,-0.9848077,0.9238796,0.3768696,-0.06645229,0.3826835,-0.9098437,0.1604301,6.712125,2.444523,8.955717" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="98bf0f78-0d0f-4451-8c63-0561ee2d586d">
+      <Part uuid="97c79467-18b1-4b6e-88aa-965f34f05e2b" designID="3814" partType="rigid" materials="106:0">
+        <Bone uuid="6142d14e-74e7-4235-89f6-f92b3e231fa6" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,2.24,5.2" />
+      </Part>
+      <Part uuid="920fdd56-299b-4ac8-be5b-71fab0c0b97b" designID="3818" partType="rigid" materials="106:0">
+        <Bone uuid="ec0ed7fb-59d2-4246-9beb-58aece98a8eb" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,5.151362,3.15,5.42" />
+      </Part>
+      <Part uuid="25c49a6a-fd76-4eab-ac59-4eab5254214f" designID="3819" partType="rigid" materials="106:0">
+        <Bone uuid="02206036-751d-4d08-b277-ba1f61d827ac" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,5.151362,3.15,4.18" />
+      </Part>
+      <Part uuid="8b315768-e0eb-483e-92e6-7538559973ad" designID="3820" partType="rigid" materials="106:0">
+        <Bone uuid="0cd1315f-0631-4e24-b891-833a44ff0ebc" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,5.112415,2.457623,3.847725" />
+      </Part>
+      <Part uuid="f677c058-d860-4616-9391-b0225ccc84e8" designID="3820" partType="rigid" materials="106:0">
+        <Bone uuid="8ec41af3-3522-4408-897b-d216a75b37f8" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,5.111506,2.457221,5.752172" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="7e29f6e8-478c-4b01-964d-8c2e4fde0fe0">
+      <Part uuid="e20f56ad-74c2-4e68-97a0-9ab748f2fd5e" designID="3626" partType="rigid" materials="106:0">
+        <Bone uuid="5cf43748-03ad-4040-a83c-af1604eff4b0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,3.52,4.8" />
+      </Part>
+    </Brick>
+    <Brick designID="13785" uuid="f247b6e1-eeec-403b-853c-78c456edc6e3">
+      <Part uuid="da6c45e3-741c-468e-a945-29192db09016" designID="13785" partType="rigid" materials="106:0">
+        <Bone uuid="2d091182-646e-4eda-be6c-e80f8a054bd7" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,4.48,4.8" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="6b16feff-72e0-4147-b537-ffefea0f959f">
+      <Part uuid="ed9a44fc-e334-4eb7-890e-41e83ada1ce3" designID="3815" partType="rigid" materials="106:0">
+        <Bone uuid="7a703b48-ca4b-47c3-9d3f-fd44f3d4795b" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,2.24,5.2" />
+      </Part>
+      <Part uuid="cfe36bc0-9c3f-4746-81e9-7e8a142f8cf4" designID="3816" partType="rigid" materials="106:0">
+        <Bone uuid="89ccae15-69b8-4c82-9671-6540d74b0692" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,0.64,5.2" />
+      </Part>
+      <Part uuid="ffd85387-7b9f-482d-91dd-a10fd4085608" designID="3817" partType="rigid" materials="106:0">
+        <Bone uuid="d57110c6-cccc-40ee-ba44-09962c570bc4" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.151362,0.64,4.4" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="07733e50-1fae-4b69-bdfb-9d635f5e4402">
+      <Part uuid="88bddfab-a4f9-4d07-97a0-5c0ad9d14997" designID="3815" partType="rigid" materials="26:0">
+        <Bone uuid="2d95bac2-29d7-488c-9252-842f57e2f0cd" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.550538,2.24,10" />
+      </Part>
+      <Part uuid="23936289-a1be-45d8-bd3b-16b00a1c6160" designID="3816" partType="rigid" materials="26:0">
+        <Bone uuid="e15c0b36-a4fe-43e1-975e-8ac7c4500583" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.550538,0.64,10" />
+      </Part>
+      <Part uuid="b700961c-542c-4787-9aa1-2a205757daf7" designID="3817" partType="rigid" materials="26:0">
+        <Bone uuid="7824c685-937b-418c-9cd4-9087e4bf7193" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.550538,0.64,9.2" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="eb65cd25-5b3f-47f0-8c03-0afb0b8e2dd0">
+      <Part uuid="76da41a0-68bc-49f5-8f51-baf51823c862" designID="3814" partType="rigid" materials="26:0">
+        <Bone uuid="7f035d40-c2cf-4de7-8a36-39e9c59ff3fa" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.550538,2.24,10" />
+      </Part>
+      <Part uuid="a588d7bf-91be-471d-972a-37399d28e1a5" designID="3818" partType="rigid" materials="26:0">
+        <Bone uuid="6054ba73-4dfb-4a51-9d0f-c1c49c99083c" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,7.550538,3.15,10.22" />
+      </Part>
+      <Part uuid="7f2ad9d4-b62b-4c68-a27e-05965f0ea227" designID="3819" partType="rigid" materials="26:0">
+        <Bone uuid="71fb250d-a167-437d-be03-acf2ca5b692f" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,7.550538,3.15,8.98" />
+      </Part>
+      <Part uuid="962b69db-d030-4b1b-95c1-373da5adeac8" designID="3820" partType="rigid" materials="26:0">
+        <Bone uuid="48869be1-f771-440c-89ac-bb6d5b57c8cc" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,7.51068,2.457221,10.55217" />
+      </Part>
+      <Part uuid="eefbb5d7-7f54-4ffd-a0bd-e56f6ea64f8d" designID="3820" partType="rigid" materials="26:0">
+        <Bone uuid="ab6d5f6f-1721-42a6-bb0f-29700e6104d5" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,7.51159,2.457623,8.647725" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="49714122-8fc2-4273-ad3a-3fa402c2fd4b">
+      <Part uuid="8e0f8974-200c-4aaa-ae1d-1d71ff5f1fca" designID="3626" partType="rigid" materials="26:0">
+        <Bone uuid="316b2f1b-7673-43c9-8011-bff49568a7e4" transformation="1,0,0,0,1,0,0,0,1,7.550538,3.52,9.6" />
+      </Part>
+    </Brick>
+    <Brick designID="53126" uuid="44101990-c2d7-4c35-93fa-84a2afbce65d">
+      <Part uuid="2cd5f2a6-955b-48bf-b033-616c61cab7c4" designID="53126" partType="rigid" materials="26:0">
+        <Bone uuid="cb8d7ad5-f9cd-486b-a425-419f5ec4f1bc" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,7.550538,4.48,9.6" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="cdd0c8b8-4332-4190-8806-705d766d5b9e">
+      <Part uuid="f9e2f74e-ff93-4d27-b806-f1544b0f1b22" designID="3814" partType="rigid" materials="1:0">
+        <Bone uuid="a66b176a-5a69-482b-b7d8-827e17a052ae" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,2.24,-4.4" />
+      </Part>
+      <Part uuid="276ca960-2c50-4a47-af81-4fc8a8aa6eb9" designID="3818" partType="rigid" materials="1:0">
+        <Bone uuid="88c8b95f-9c05-4d80-aff7-649967d81ec6" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,0.3513623,3.15,-4.18" />
+      </Part>
+      <Part uuid="edc60319-2e68-489c-ae04-30919fcf48c8" designID="3819" partType="rigid" materials="1:0">
+        <Bone uuid="755b5043-9e6a-45fc-a430-472d0b395586" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,0.3513623,3.15,-5.42" />
+      </Part>
+      <Part uuid="686ddec3-b70d-45a2-b0d1-afce62fb4f99" designID="3820" partType="rigid" materials="1:0">
+        <Bone uuid="c7b34227-3d14-499c-9f18-9102717267a8" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,0.3115053,2.457221,-3.847827" />
+      </Part>
+      <Part uuid="cf4047c8-6d42-4e57-ada4-e9e2b85d8b79" designID="3820" partType="rigid" materials="1:0">
+        <Bone uuid="1437e293-3395-4a0e-81fe-ad131c6833bb" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,0.3124152,2.457623,-5.752275" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="bdcc1dee-4e55-41d7-aeec-edde34e16798">
+      <Part uuid="20436898-5eb2-4fd0-9556-6f69936c5540" designID="3626" partType="rigid" materials="1:0">
+        <Bone uuid="d17d2bd1-d43d-4203-9163-059730abfba8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,3.52,-4.8" />
+      </Part>
+    </Brick>
+    <Brick designID="87991" uuid="4f822aae-5fe2-4ded-bbfc-9fdc382bff7d">
+      <Part uuid="5763c2db-85ad-4ff0-9c57-0e0922b8797e" designID="87991" partType="rigid" materials="1:0">
+        <Bone uuid="f772c401-901c-453b-bc80-7894d0e284e1" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,4.48,-4.8" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="75d3e1b3-44a2-4b8d-8766-5ed05c331940">
+      <Part uuid="94c5407a-3d2b-4161-8ef0-3945c9bed123" designID="3815" partType="rigid" materials="1:0">
+        <Bone uuid="b6afba43-920f-4dfa-959f-416cc1a8538f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,2.24,-4.4" />
+      </Part>
+      <Part uuid="bac4fdb8-2a88-4829-8853-cea0beb57ffa" designID="3816" partType="rigid" materials="1:0">
+        <Bone uuid="745dbc59-5e89-4043-a88f-2a55f0fc249a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,0.64,-4.4" />
+      </Part>
+      <Part uuid="821cb7c6-0c4c-4188-9806-8f699435425e" designID="3817" partType="rigid" materials="1:0">
+        <Bone uuid="21dfc3fd-dd01-4404-89e0-ee2817846af0" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,0.3513623,0.64,-5.2" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="de6c55e2-ec15-4f46-91a8-f34ab668f844">
+      <Part uuid="b212a6f8-d425-4f0e-a61b-6c20027c27fe" designID="3814" partType="rigid" materials="268:0">
+        <Bone uuid="9d18eb22-7d72-487f-ba23-05502465823a" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.950538,2.24,-1.2" />
+      </Part>
+      <Part uuid="a380b223-d91a-4454-b0a2-3446960486eb" designID="3818" partType="rigid" materials="268:0">
+        <Bone uuid="02e9d92c-7237-4383-9734-e4bb9679956f" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,1.950538,3.15,-0.98" />
+      </Part>
+      <Part uuid="5cf89269-4bd2-42d1-a61c-cdfe8d08c4ed" designID="3819" partType="rigid" materials="268:0">
+        <Bone uuid="5e709114-0af9-4bd3-9eb9-759039de3e70" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,1.950538,3.15,-2.22" />
+      </Part>
+      <Part uuid="7aa00c02-f1c7-480a-8264-af3dc7f93c30" designID="3820" partType="rigid" materials="268:0">
+        <Bone uuid="beb1a365-929e-4aed-b289-b2ae5f9d4c1c" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,1.910681,2.457221,-0.6478275" />
+      </Part>
+      <Part uuid="2e2375e6-b4af-4e17-8dc2-c83b44bb1147" designID="3820" partType="rigid" materials="268:0">
+        <Bone uuid="fcec5fc7-523a-488c-be40-e571f545a0ba" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,1.911591,2.457623,-2.552274" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="209292e9-8c36-4957-bd3b-0c49381cd0ff">
+      <Part uuid="5ab69c39-4b98-4924-a8b3-3f2e9131c254" designID="3626" partType="rigid" materials="268:0">
+        <Bone uuid="fe3c840b-7a5e-414e-afa8-95a17a00ff40" transformation="1,0,0,0,1,0,0,0,1,1.950538,3.52,-1.6" />
+      </Part>
+    </Brick>
+    <Brick designID="15503" uuid="1c22fd2b-9ad8-4e71-9d2f-7b73085f117e">
+      <Part uuid="9fd84225-6c21-4841-8899-087c2e8c3ed5" designID="15503" partType="rigid" materials="268:0">
+        <Bone uuid="e13725ba-af89-4bd5-af8a-005774951ca8" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.950538,4.48,-1.6" />
+      </Part>
+    </Brick>
+    <Brick designID="73200" uuid="95d12613-7d3d-490b-8143-7f549cb0932c">
+      <Part uuid="db3049af-5c1f-4695-a788-22f59beea5c6" designID="3815" partType="rigid" materials="268:0">
+        <Bone uuid="18d00358-290c-42fd-982b-bbefd4fa274f" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.950538,2.24,-1.2" />
+      </Part>
+      <Part uuid="09d98e47-429c-4d28-9edf-d7857f9277d6" designID="3816" partType="rigid" materials="268:0">
+        <Bone uuid="05da6b39-0137-4c14-91ae-a37a41ea9f98" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.950538,0.64,-1.2" />
+      </Part>
+      <Part uuid="67574168-10b2-43e3-9d21-22baac003810" designID="3817" partType="rigid" materials="268:0">
+        <Bone uuid="0b9b64ea-9a7e-4f58-a8ed-b379f2d2ce63" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,1.950538,0.64,-2" />
+      </Part>
+    </Brick>
+    <Brick designID="76382" uuid="c6857124-7f18-4b60-a240-0f2547f37f67">
+      <Part uuid="335d23c4-45eb-474a-a350-17cf4d27ab41" designID="3814" partType="rigid" materials="221:0">
+        <Bone uuid="b962b320-f7af-4a2f-a3db-dcea105fef72" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,2.24,-6" />
+      </Part>
+      <Part uuid="4a0cdd3b-37b9-446f-917e-7edfa3b92a19" designID="3818" partType="rigid" materials="221:0">
+        <Bone uuid="dbd316af-dcc0-455d-8dd3-e69e31efb1ab" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,-0.4494623,3.15,-5.78" />
+      </Part>
+      <Part uuid="c4589530-3309-45b9-aa98-88d94d0257fa" designID="3819" partType="rigid" materials="221:0">
+        <Bone uuid="f6c8ff05-a241-44c3-b994-ac99cbf2ce5f" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,-0.4494623,3.15,-7.02" />
+      </Part>
+      <Part uuid="935a9898-dc2a-492b-97be-b0261a963a1e" designID="3820" partType="rigid" materials="221:0">
+        <Bone uuid="99f19b36-677b-463d-8b93-288b4889fc16" transformation="-0.0000004768372,-0.1822351,-0.983255,0.9238796,0.3762752,-0.06973881,0.3826833,-0.9084092,0.1683631,-0.4893192,2.457221,-5.447827" />
+      </Part>
+      <Part uuid="975b71ff-653b-4d43-ac4c-89093480c8ee" designID="3820" partType="rigid" materials="221:0">
+        <Bone uuid="90d2549d-6c06-486f-a52d-ce7a4ddf1e12" transformation="0,0.1822355,-0.9832549,0.9238795,0.3762754,0.06973854,0.3826834,-0.9084091,-0.1683637,-0.4884094,2.457623,-7.352274" />
+      </Part>
+    </Brick>
+    <Brick designID="3626" uuid="1926c393-eb63-4b0c-9cea-674e28e19282">
+      <Part uuid="f1e9f50d-80bf-4d5f-8c92-20a68f7a47fc" designID="3626" partType="rigid" materials="221:0">
+        <Bone uuid="a0099dc2-fbd9-4ff8-9ee0-49f9d6a4bbc2" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,3.52,-6.4" />
+      </Part>
+    </Brick>
+    <Brick designID="23187" uuid="237040c5-1b96-4003-b55a-c138e8bab169">
+      <Part uuid="19531e22-19d7-489d-a52f-709a5414046f" designID="23187" partType="rigid" materials="221:0">
+        <Bone uuid="34dda651-a998-450f-a565-01e60160f28d" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,-0.4494623,4.48,-6.4" />
+      </Part>
+    </Brick>
+    <Brick designID="18228" uuid="96900ef3-4edb-4372-a7bd-d352e29c0862">
+      <Part uuid="e7a28567-bacd-45d0-bb29-12e5465a7db8" designID="18228" partType="rigid" materials="21:0">
+        <Bone uuid="2a29613b-9a72-497c-9028-72c4e26e2869" transformation="-0.0000003576279,0,-1,0,1,0,1,0,-0.0000003576279,5.950538,4.48,6.391303" />
+      </Part>
+    </Brick>
+  </Bricks>
+  <Configurations>
+    <Configuration type="design" />
+  </Configurations>
+</LXFML>

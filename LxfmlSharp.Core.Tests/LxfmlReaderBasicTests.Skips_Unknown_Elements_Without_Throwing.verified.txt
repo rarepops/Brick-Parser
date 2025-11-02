@@ -1,0 +1,32 @@
+﻿{
+  VersionMajor: 9,
+  Bricks: [
+    {
+      DesignId: 1,
+      Parts: [
+        {
+          DesignId: 2,
+          Bones: [
+            {
+              Transformation3x4: [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              IsValid: true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

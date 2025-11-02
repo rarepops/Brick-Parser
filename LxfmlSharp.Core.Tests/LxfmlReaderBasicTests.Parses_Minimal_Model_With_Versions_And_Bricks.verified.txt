@@ -1,0 +1,45 @@
+﻿{
+  VersionMajor: 9,
+  Bricks: [
+    {
+      DesignId: 123,
+      Uuid: brick-1,
+      Parts: [
+        {
+          DesignId: 456,
+          Uuid: part-1,
+          PartType: rigid,
+          Materials: [
+            {
+              ColorId: 21
+            },
+            {
+              ColorId: 5,
+              Variant: 2
+            }
+          ],
+          Bones: [
+            {
+              Uuid: bone-1,
+              Transformation3x4: [
+                1.0,
+                0.0,
+                0.0,
+                10.0,
+                0.0,
+                1.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                1.0,
+                30.0
+              ],
+              IsValid: true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
