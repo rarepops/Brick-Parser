@@ -3,6 +3,7 @@
 namespace LxfmlSharp.Api;
 
 public record ModelDto(string Name, int PartCount, PartDto[] Parts);
+
 public record PartDto(string Uuid, int DesignId, float[] TransformMatrix);
 
 public interface IModelStorage
@@ -11,7 +12,6 @@ public interface IModelStorage
     Task<ModelDto?> GetModelAsync(string modelId, CancellationToken ct = default);
 }
 
-// In-memory storage for now
 public sealed class InMemoryModelStorage : IModelStorage
 {
     private static readonly ConcurrentDictionary<string, ModelDto> Store = new();

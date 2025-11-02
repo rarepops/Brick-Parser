@@ -30,7 +30,3 @@ Accept: {{contentType}}
 ### Negative test: non-existent id should 404
 GET {{base}}/api/models/does-not-exist
 Accept: {{contentType}}
-
-### Switch base to HTTPS (optional)
-GET {{https}}/api/models/{{modelId}}
-Accept: {{contentType}}
