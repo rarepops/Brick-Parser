@@ -5,6 +5,8 @@ using Amazon.DynamoDBv2.Model;
 using Amazon.S3;
 using Amazon.S3.Model;
 
+using LxfmlSharp.Api.Contracts;
+
 namespace LxfmlSharp.Api;
 
 public sealed class AWSModelStorage : IModelStorage
@@ -13,96 +15,21 @@ public sealed class AWSModelStorage : IModelStorage
     private readonly IAmazonS3 _s3;
     private readonly IAmazonDynamoDB _dynamo;
     private readonly ILogger<AWSModelStorage> _logger;
+    private readonly string _bucketName;
+    private readonly string _tableName;
 
-    private const string BucketName = "lxfml-models";
-    private const string TableName = "Models";
-
-    public AWSModelStorage(IAmazonS3 s3, IAmazonDynamoDB dynamo, ILogger<AWSModelStorage> logger)
+    public AWSModelStorage(
+        IAmazonS3 s3,
+        IAmazonDynamoDB dynamo,
+        ILogger<AWSModelStorage> logger,
+        IConfiguration configuration
+    )
     {
         _s3 = s3;
         _dynamo = dynamo;
         _logger = logger;
-
-        // Ensure resources exist on startup (dev only)
-        InitializeAsync().GetAwaiter().GetResult();
-    }
-
-    private async Task InitializeAsync()
-    {
-        var maxRetries = 5;
-        var retryDelay = TimeSpan.FromSeconds(3);
-
-        for (int attempt = 1; attempt <= maxRetries; attempt++)
-        {
-            try
-            {
-                _logger.LogInformation(
-                    "Initializing LocalStack (attempt {Attempt}/{Max})...",
-                    attempt,
-                    maxRetries
-                );
-
-                // Test connectivity first
-                var buckets = await _s3.ListBucketsAsync();
-
-                if (buckets == null)
-                {
-                    throw new InvalidOperationException("Failed to list S3 buckets");
-                }
-
-                var bucketCount = buckets?.Buckets?.Count ?? 0;
-
-                _logger.LogInformation(
-                    "LocalStack S3 is ready - found {Count} buckets",
-                    bucketCount
-                );
-
-                // Create bucket if needed
-                if (buckets?.Buckets?.Any(b => b.BucketName == BucketName) != true)
-                {
-                    await _s3.PutBucketAsync(BucketName);
-                    _logger.LogInformation("Created bucket: {Bucket}", BucketName);
-                }
-
-                // Create DynamoDB table
-                var tables = await _dynamo.ListTablesAsync();
-                if (!tables.TableNames.Contains(TableName))
-                {
-                    await _dynamo.CreateTableAsync(
-                        new CreateTableRequest
-                        {
-                            TableName = TableName,
-                            KeySchema = [new KeySchemaElement("ModelId", KeyType.HASH)],
-                            AttributeDefinitions =
-                            [
-                                new AttributeDefinition("ModelId", ScalarAttributeType.S),
-                            ],
-                            BillingMode = BillingMode.PAY_PER_REQUEST,
-                        }
-                    );
-                    _logger.LogInformation("Created table: {Table}", TableName);
-                }
-
-                _logger.LogInformation("LocalStack resources initialized");
-                return;
-            }
-            catch (Exception ex) when (attempt < maxRetries)
-            {
-                _logger.LogWarning(
-                    ex,
-                    "LocalStack not ready (attempt {Attempt}/{Max}), retrying in {Delay}s...",
-                    attempt,
-                    maxRetries,
-                    retryDelay.TotalSeconds
-                );
-                await Task.Delay(retryDelay);
-                retryDelay = TimeSpan.FromSeconds(retryDelay.TotalSeconds * 1.5); // Exponential backoff
-            }
-        }
-
-        throw new InvalidOperationException(
-            $"Failed to initialize LocalStack after {maxRetries} attempts"
-        );
+        _bucketName = configuration["AWS:BucketName"] ?? "lxfml-models";
+        _tableName = configuration["AWS:TableName"] ?? "Models";
     }
 
     public async Task SaveModelAsync(string modelId, ModelDto model, CancellationToken ct = default)
@@ -122,7 +49,7 @@ public sealed class AWSModelStorage : IModelStorage
         await _s3.PutObjectAsync(
             new PutObjectRequest
             {
-                BucketName = BucketName,
+                BucketName = _bucketName,
                 Key = $"{modelId}.json",
                 ContentBody = json,
                 ContentType = "application/json",
@@ -134,7 +61,7 @@ public sealed class AWSModelStorage : IModelStorage
         await _dynamo.PutItemAsync(
             new PutItemRequest
             {
-                TableName = TableName,
+                TableName = _tableName,
                 Item = new Dictionary<string, AttributeValue>
                 {
                     ["ModelId"] = new AttributeValue { S = modelId },
@@ -158,7 +85,7 @@ public sealed class AWSModelStorage : IModelStorage
         {
             _logger.LogInformation("Retrieving model {ModelId} from S3", modelId);
             var response = await _s3.GetObjectAsync(
-                new GetObjectRequest { BucketName = BucketName, Key = $"{modelId}.json" },
+                new GetObjectRequest { BucketName = _bucketName, Key = $"{modelId}.json" },
                 ct
             );
 

@@ -1,16 +1,8 @@
 ﻿using System.Collections.Concurrent;
 
+using LxfmlSharp.Api.Contracts;
+
 namespace LxfmlSharp.Api;
-
-public record ModelDto(string Name, int PartCount, PartDto[] Parts);
-
-public record PartDto(string Uuid, int DesignId, float[] TransformMatrix);
-
-public interface IModelStorage
-{
-    Task SaveModelAsync(string modelId, ModelDto model, CancellationToken ct = default);
-    Task<ModelDto?> GetModelAsync(string modelId, CancellationToken ct = default);
-}
 
 public sealed class InMemoryModelStorage : IModelStorage
 {
