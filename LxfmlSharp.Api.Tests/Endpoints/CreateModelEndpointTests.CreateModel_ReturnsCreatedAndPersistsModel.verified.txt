@@ -1,0 +1,6 @@
+{
+  StatusCode: Created,
+  HasLocation: true,
+  ModelId: {Scrubbed},
+  StoredName: Test Model
+}

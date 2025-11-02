@@ -1,0 +1,28 @@
+{
+  Name: Updated,
+  PartCount: 2,
+  Parts: [
+    {
+      Uuid: new,
+      DesignId: 2,
+      TransformMatrix: [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

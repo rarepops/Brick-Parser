@@ -14,6 +14,7 @@ var api = builder
     .WithEnvironment("LocalStack__UseLocalStack", "true")
     .WithEnvironment("LocalStack__Config__LocalStackHost", "localhost")
     .WithEnvironment("LocalStack__Config__EdgePort", "4566")
-    .WithEnvironment("LocalStack__Session__RegionName", "us-east-1");
+    .WithEnvironment("LocalStack__Session__RegionName", "us-east-1")
+    .WaitFor(localstack);
 
 builder.Build().Run();

@@ -1,6 +1,8 @@
 using System.Xml;
 using LxfmlSharp.Core.Components;
 
+namespace LxfmlSharp.Core;
+
 public static class LxfmlReader
 {
     public static Model Load(string filePath)
@@ -39,17 +41,23 @@ public static class LxfmlReader
     {
         var model = new Model();
 
-        // Seek <LXFML>
         while (xr.Read())
         {
             if (xr.NodeType == XmlNodeType.Element && Is(xr, "LXFML"))
             {
-                model = new Model
+                try
                 {
-                    VersionMajor = GetInt(xr, "versionMajor"),
-                    VersionMinor = GetInt(xr, "versionMinor"),
-                    VersionPatch = GetInt(xr, "versionPatch"),
-                };
+                    model = new Model
+                    {
+                        VersionMajor = GetInt(xr, "versionMajor"),
+                        VersionMinor = GetInt(xr, "versionMinor"),
+                        VersionPatch = GetInt(xr, "versionPatch"),
+                    };
+                }
+                catch (InvalidDataException ex)
+                {
+                    throw new InvalidDataException($"Line {GetLineInfo(xr)}: {ex.Message}", ex);
+                }
 
                 if (xr.IsEmptyElement)
                 {
@@ -111,15 +119,14 @@ public static class LxfmlReader
 
     private static Brick ReadBrick(XmlReader xr)
     {
-        // Reader is at <Brick ...>
-
-        // Require designId attribute and parse it
         var designIdAttr = GetString(xr, "designId");
         if (
-            string.IsNullOrWhiteSpace(designIdAttr) || !int.TryParse(designIdAttr, out var designId)
+            string.IsNullOrWhiteSpace(designIdAttr) || !int.TryParse(designIdAttr, out int designId)
         )
         {
-            throw new InvalidDataException("Brick.designId must be an integer.");
+            throw new InvalidDataException(
+                $"Line {GetLineInfo(xr)}: Brick requires numeric designId, got '{designIdAttr}'"
+            );
         }
 
         var brick = new Brick { Uuid = GetString(xr, "uuid"), DesignId = designId };
@@ -148,19 +155,18 @@ public static class LxfmlReader
 
     private static Part ReadPart(XmlReader xr)
     {
-        // Reader is at <Part ...>
-
-        var materialsRaw = GetString(xr, "materials");
-
-        // require part designId attribute and parse it
         var partDesignAttr = GetString(xr, "designId");
         if (
             string.IsNullOrWhiteSpace(partDesignAttr)
             || !int.TryParse(partDesignAttr, out var partDesignId)
         )
         {
-            throw new InvalidDataException("Part.designId must be an integer.");
+            throw new InvalidDataException(
+                $"Line {GetLineInfo(xr)}: Part requires numeric designId, got '{partDesignAttr}'"
+            );
         }
+
+        var materialsRaw = GetString(xr, "materials");
 
         var part = new Part
         {
@@ -194,23 +200,29 @@ public static class LxfmlReader
 
     private static Bone ReadBone(XmlReader xr)
     {
-        // Reader is at <Bone ...>
         var transformStr =
             GetString(xr, "transformation") ?? GetString(xr, "t") ?? GetString(xr, "transform");
         if (string.IsNullOrWhiteSpace(transformStr))
         {
             throw new InvalidDataException(
-                "Bone.transform is required and must contain 12 values."
+                $"Line {GetLineInfo(xr)}: Bone requires 'transformation' attribute with 12 values"
             );
         }
 
-        var arr = LxfmlParsers.ParseTransform3x4(transformStr); // was ParseTransform3x4
-
-        if (arr is null || arr.Length != 12)
+        float[]? arr;
+        try
         {
-            throw new InvalidDataException(
-                $"Bone.transform expected 12 values, got {arr?.Length ?? 0}."
-            );
+            arr = LxfmlParsers.ParseTransform3x4(transformStr);
+            if (arr?.Length != 12)
+            {
+                throw new InvalidDataException(
+                    $"Bone transform expected 12 values, got {arr?.Length ?? 0}"
+                );
+            }
+        }
+        catch (InvalidDataException ex)
+        {
+            throw new InvalidDataException($"Line {GetLineInfo(xr)}: {ex.Message}", ex);
         }
 
         var bone = new Bone { Uuid = GetString(xr, "uuid"), Transformation3x4 = arr };
@@ -229,7 +241,7 @@ public static class LxfmlReader
         if (!bone.IsValid)
         {
             throw new InvalidDataException(
-                "Bone transform must be 12 finite doubles (3x4 row-major)."
+                $"Line {GetLineInfo(xr)}: Bone transform contains non-finite values (NaN or Infinity)"
             );
         }
 
@@ -268,5 +280,15 @@ public static class LxfmlReader
     {
         var s = GetString(xr, attr);
         return int.TryParse(s, out var v) ? v : defaultValue;
+    }
+
+    private static string GetLineInfo(XmlReader xr)
+    {
+        if (xr is IXmlLineInfo li && li.HasLineInfo())
+        {
+            return $"{li.LineNumber},{li.LinePosition}";
+        }
+
+        return "unknown";
     }
 }

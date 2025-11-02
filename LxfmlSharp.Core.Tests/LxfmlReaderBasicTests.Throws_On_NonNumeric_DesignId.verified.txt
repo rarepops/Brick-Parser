@@ -1,1 +1,1 @@
-﻿Brick.designId must be an integer.
+﻿Line 3,6: Brick requires numeric designId, got 'abc'

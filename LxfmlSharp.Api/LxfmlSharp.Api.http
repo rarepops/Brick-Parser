@@ -1,7 +1,12 @@
 @http = http://localhost:5130
 @https = https://localhost:7181
-@base = {{https}}
+@base = {{http}}
 @contentType = application/json
+
+### Initial query - expect missing
+# @name firstLookup
+GET {{base}}/api/v1/models/non-existent-id
+Accept: {{contentType}}
 
 ### Upload a parsed model
 # @name createModel
@@ -23,10 +28,34 @@ Content-Type: {{contentType}}
 ### Extract modelId from previous response
 @modelId = {{createModel.response.body.$.modelId}}
 
-### Get the model (roundtrip)
+### Query again - should exist
 GET {{base}}/api/v1/models/{{modelId}}
 Accept: {{contentType}}
 
-### Negative test: non-existent id should 404
-GET {{base}}/api/v1/models/does-not-exist
+### Upsert the model
+PUT {{base}}/api/v1/models/{{modelId}}
+Content-Type: {{contentType}}
+
+{
+  "name": "Everyone is Awesome (updated)",
+  "partCount": 1,
+  "parts": [
+    {
+      "uuid": "p-1",
+      "designId": 3001,
+      "transformMatrix": [2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0, 0.0, 0.0, 0.0, 0.0, 2.0]
+    }
+  ]
+}
+
+### Query again - should change name/transform values
+GET {{base}}/api/v1/models/{{modelId}}
+Accept: {{contentType}}
+
+### Delete the model
+DELETE {{base}}/api/v1/models/{{modelId}}
+Accept: {{contentType}}
+
+### Final query - expect missing
+GET {{base}}/api/v1/models/{{modelId}}
 Accept: {{contentType}}

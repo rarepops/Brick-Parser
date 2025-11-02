@@ -1,8 +1,8 @@
 ﻿using System.Collections.Concurrent;
+using LxfmlSharp.Application.Contracts;
+using LxfmlSharp.Application.DTOs;
 
-using LxfmlSharp.Api.Contracts;
-
-namespace LxfmlSharp.Api;
+namespace LxfmlSharp.Api.Infrastructure;
 
 public sealed class InMemoryModelStorage : IModelStorage
 {
@@ -17,5 +17,11 @@ public sealed class InMemoryModelStorage : IModelStorage
     public Task<ModelDto?> GetModelAsync(string modelId, CancellationToken ct = default)
     {
         return Task.FromResult(Store.TryGetValue(modelId, out var m) ? m : null);
+    }
+
+    public Task<bool> DeleteModelAsync(string modelId, CancellationToken ct = default)
+    {
+        var removed = Store.TryRemove(modelId, out _);
+        return Task.FromResult(removed);
     }
 }

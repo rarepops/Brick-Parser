@@ -17,4 +17,10 @@
     <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.13.0" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.9.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LxfmlSharp.Application\LxfmlSharp.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="LxfmlSharp.Api.Tests" />
+  </ItemGroup>
 </Project>

@@ -1,13 +1,16 @@
 ﻿using System.Diagnostics;
+using System.Net;
 using System.Text.Json;
+
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.Model;
 using Amazon.S3;
 using Amazon.S3.Model;
 
-using LxfmlSharp.Api.Contracts;
+using LxfmlSharp.Application.Contracts;
+using LxfmlSharp.Application.DTOs;
 
-namespace LxfmlSharp.Api;
+namespace LxfmlSharp.Api.Infrastructure;
 
 public sealed class AWSModelStorage : IModelStorage
 {
@@ -103,5 +106,47 @@ public sealed class AWSModelStorage : IModelStorage
             activity?.AddEvent(new ActivityEvent("ModelNotFound"));
             return null;
         }
+    }
+
+    public async Task<bool> DeleteModelAsync(string modelId, CancellationToken ct = default)
+    {
+        using var activity = _activitySource.StartActivity("DeleteModel", ActivityKind.Internal);
+        activity?.SetTag("modelId", modelId);
+
+        _logger.LogInformation("Deleting model {ModelId} from DynamoDB and S3", modelId);
+
+        var deleteResponse = await _dynamo.DeleteItemAsync(
+            new DeleteItemRequest
+            {
+                TableName = _tableName,
+                Key = new Dictionary<string, AttributeValue>
+                {
+                    ["ModelId"] = new AttributeValue { S = modelId },
+                },
+                ReturnValues = ReturnValue.ALL_OLD,
+            },
+            ct
+        );
+
+        var existed = deleteResponse.Attributes?.Count > 0;
+
+        try
+        {
+            await _s3.DeleteObjectAsync(
+                new DeleteObjectRequest { BucketName = _bucketName, Key = $"{modelId}.json" },
+                ct
+            );
+        }
+        catch (AmazonS3Exception ex) when (ex.StatusCode == HttpStatusCode.NotFound)
+        {
+            _logger.LogDebug("Model {ModelId} object was not present in S3", modelId);
+        }
+
+        _logger.LogInformation(
+            existed ? "Deleted model {ModelId}" : "Model {ModelId} did not exist",
+            modelId
+        );
+
+        return existed;
     }
 }

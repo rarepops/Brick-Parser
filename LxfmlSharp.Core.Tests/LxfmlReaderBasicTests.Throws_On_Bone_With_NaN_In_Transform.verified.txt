@@ -1,1 +1,1 @@
-﻿Transform contains non-finite numbers.
+﻿Line 7,10: Transform contains non-finite numbers.

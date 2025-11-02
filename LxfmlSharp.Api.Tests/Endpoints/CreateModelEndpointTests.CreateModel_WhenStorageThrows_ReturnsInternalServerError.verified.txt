@@ -1,0 +1,4 @@
+{
+  StatusCode: InternalServerError,
+  ContentType: application/problem+json
+}

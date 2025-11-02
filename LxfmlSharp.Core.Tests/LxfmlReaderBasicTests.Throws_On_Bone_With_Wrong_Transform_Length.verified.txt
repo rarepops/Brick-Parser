@@ -1,1 +1,1 @@
-﻿Expected 12 transform values, got 11.
+﻿Line 6,10: Expected 12 transform values, got 11.

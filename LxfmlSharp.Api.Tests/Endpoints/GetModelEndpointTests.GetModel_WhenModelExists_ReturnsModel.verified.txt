@@ -1,0 +1,53 @@
+{
+  StatusCode: OK,
+  Model: {
+    Name: Existing Model,
+    PartCount: 2,
+    Parts: [
+      {
+        Uuid: uuid1,
+        DesignId: 1,
+        TransformMatrix: [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        Uuid: uuid2,
+        DesignId: 2,
+        TransformMatrix: [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  }
+}

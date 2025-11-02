@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace LxfmlSharp.Core.Tests;
+namespace LxfmlSharp.Api.Tests;
 
 public static class ModuleInitializer
 {

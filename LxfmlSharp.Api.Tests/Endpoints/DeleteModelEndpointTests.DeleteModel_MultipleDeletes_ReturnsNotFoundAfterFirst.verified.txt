@@ -1,0 +1,4 @@
+{
+  FirstStatus: NoContent,
+  SecondStatus: NotFound
+}

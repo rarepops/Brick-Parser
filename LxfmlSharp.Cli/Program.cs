@@ -1,4 +1,4 @@
-﻿using System.Xml;
+﻿using LxfmlSharp.Core;
 
 static int Usage()
 {
@@ -56,26 +56,49 @@ if (!File.Exists(path))
 
 try
 {
-    var model = LxfmlReader.Load(path); // see: LxfmlSharp.Core\LxfmlReader.cs
-    Console.WriteLine($"Loading: \"{path}\"");
-    Console.WriteLine($"Metadata: v{model.VersionMajor}.{model.VersionMinor}.{model.VersionPatch}");
-    Console.WriteLine($"Bricks: {model.Bricks.Count}");
+    var model = LxfmlReader.Load(path);
+
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("SUCCESS: model loaded");
+    Console.ResetColor();
+
+    Console.WriteLine(
+        $"  Metadata: v{model.VersionMajor}.{model.VersionMinor}.{model.VersionPatch}"
+    );
+    Console.WriteLine($"  Bricks: {model.Bricks.Count}");
     var parts = model.Bricks.Sum(b => b.Parts.Count);
-    Console.WriteLine($"Parts: {parts}");
+    Console.WriteLine($"  Parts: {parts}");
     return 0;
 }
 catch (InvalidDataException ex)
 {
-    Console.Error.WriteLine($"Invalid LXFML: {ex.Message}");
-    return 1;
-}
-catch (XmlException ex)
-{
-    Console.Error.WriteLine($"XML error: {ex.Message}");
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.Error.WriteLine($"PARSE ERROR: {ex.Message}");
+    Console.ResetColor();
+
+    foreach (var detail in EnumerateInnerMessages(ex))
+    {
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.Error.WriteLine($"  Cause: {detail}");
+        Console.ResetColor();
+    }
+
     return 1;
 }
 catch (Exception ex)
 {
-    Console.Error.WriteLine($"Unexpected error: {ex.Message}");
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.Error.WriteLine($"ERROR: {ex.Message}");
+    Console.ResetColor();
     return 1;
+}
+
+static IEnumerable<string> EnumerateInnerMessages(Exception ex)
+{
+    var cursor = ex.InnerException;
+    while (cursor is not null)
+    {
+        yield return cursor.Message;
+        cursor = cursor.InnerException;
+    }
 }

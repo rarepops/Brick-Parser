@@ -1,9 +1,7 @@
 ﻿using LxfmlSharp.Core.Tests.Helpers;
-
 using Assert = TUnit.Assertions.Assert;
 
 namespace LxfmlSharp.Core.Tests;
-
 
 [ParallelGroup("BasicTests")]
 public class LxfmlReaderBasicTests
@@ -105,11 +103,11 @@ public class LxfmlReaderBasicTests
     {
         // Arrange
         var xml = TestFiles.ReadSample("nan-transform.lxfml");
-        
+
         // Act
         var exception = Assert.Throws<InvalidDataException>(() => LxfmlReader.LoadFromString(xml));
-        
+
         // Assert
         await Verify(exception!.Message);
-    }   
+    }
 }

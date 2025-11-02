@@ -16,7 +16,8 @@ public sealed class StorageInitializer : IHostedService
         IAmazonS3 s3,
         IAmazonDynamoDB dynamo,
         ILogger<StorageInitializer> logger,
-        IConfiguration configuration)
+        IConfiguration configuration
+    )
     {
         _s3 = s3;
         _dynamo = dynamo;
@@ -28,7 +29,7 @@ public sealed class StorageInitializer : IHostedService
     {
         var bucketName = _configuration["AWS:BucketName"] ?? "lxfml-models";
         var tableName = _configuration["AWS:TableName"] ?? "Models";
-        
+
         var maxRetries = 5;
         var retryDelay = TimeSpan.FromSeconds(3);
 

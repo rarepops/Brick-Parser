@@ -1,8 +1,7 @@
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using LxfmlSharp.Core.Components;
+
+namespace LxfmlSharp.Core;
 
 public static class LxfmlParsers
 {
@@ -35,25 +34,18 @@ public static class LxfmlParsers
         return list;
     }
 
-    public static double[] ParseTransform3x4(string? s)
+    public static float[] ParseTransform3x4(string? s)
     {
         if (string.IsNullOrWhiteSpace(s))
         {
-            return Array.Empty<double>();
+            return Array.Empty<float>();
         }
 
         var tokens = s.Split(',', StringSplitOptions.RemoveEmptyEntries);
-        var vals = new List<double>(12);
+        var vals = new List<float>(12);
         foreach (var t in tokens)
         {
-            if (
-                double.TryParse(
-                    t,
-                    NumberStyles.Float,
-                    CultureInfo.InvariantCulture,
-                    out var d
-                )
-            )
+            if (float.TryParse(t, NumberStyles.Float, CultureInfo.InvariantCulture, out var d))
             {
                 vals.Add(d);
             }
@@ -64,7 +56,7 @@ public static class LxfmlParsers
             throw new InvalidDataException($"Expected 12 transform values, got {vals.Count}.");
         }
 
-        if (vals.Any(v => double.IsNaN(v) || double.IsInfinity(v)))
+        if (vals.Any(v => float.IsNaN(v) || float.IsInfinity(v)))
         {
             throw new InvalidDataException("Transform contains non-finite numbers.");
         }

@@ -2,7 +2,7 @@ using OpenTelemetry;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Trace;
 
-namespace Microsoft.Extensions.Hosting;
+namespace LxfmlSharp.Api;
 
 public static class ServiceDefaultsExtensions
 {
